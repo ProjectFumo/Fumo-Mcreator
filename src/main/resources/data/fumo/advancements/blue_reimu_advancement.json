@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:blue_reimu_icon"
+    },
+    "title": {
+      "translate": "advancements.blue_reimu_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.blue_reimu_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "blue_reimu_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fumo:reimu_advancement"
+}

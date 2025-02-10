@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.CAKE"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.SUGAR"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NazrinItem"
+    },
+    "name": "nazrin_craft",
+    "namespace": "mod"
+  }
+}

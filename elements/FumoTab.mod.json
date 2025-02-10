@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Fumo",
+    "icon": {
+      "value": "CUSTOM:CreativeTabIcon"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ice"
+    },
+    "1": {
+      "item": "minecraft:ice"
+    },
+    "2": {
+      "item": "minecraft:ice"
+    },
+    "3": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:ice"
+    },
+    "6": {
+      "item": "minecraft:snowball"
+    },
+    "7": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "8": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "item": "fumo:cirno_item",
+    "count": 1
+  }
+}

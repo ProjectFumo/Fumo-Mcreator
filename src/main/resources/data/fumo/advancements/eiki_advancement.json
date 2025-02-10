@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:eiki_icon"
+    },
+    "title": {
+      "translate": "advancements.eiki_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.eiki_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "eiki_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:eiki_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fumo:fumo_advancement"
+}

@@ -1,0 +1,11 @@
+{
+  "fumo_scream": {
+    "subtitle": "subtitles.fumo_scream",
+    "sounds": [
+      {
+        "name": "fumo:aaaaaaa",
+        "stream": false
+      }
+    ]
+  }
+}

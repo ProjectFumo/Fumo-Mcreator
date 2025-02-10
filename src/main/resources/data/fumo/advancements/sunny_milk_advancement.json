@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:sunny_milk_item"
+    },
+    "title": {
+      "translate": "advancements.sunny_milk_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.sunny_milk_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "sunny_milk_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:sunny_milk_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fumo:fumo_advancement"
+}

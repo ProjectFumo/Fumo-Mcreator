@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "advancements.tutorial_advancement_pickup.title"
+    },
+    "description": {
+      "translate": "advancements.tutorial_advancement_pickup.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tutorial_advancement_pickup": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fumo:fumo_tutorial_base_advancement"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": "Items.CARROT_ON_A_STICK"
+      },
+      {
+        "value": "Items.RABBIT_FOOT"
+      },
+      {
+        "value": "Items.RABBIT_HIDE"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.RABBIT_HIDE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TewiItem"
+    },
+    "name": "tewi_craft",
+    "namespace": "mod"
+  }
+}

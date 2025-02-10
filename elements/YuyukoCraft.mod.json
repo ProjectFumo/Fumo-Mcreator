@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.COOKED_CHICKEN"
+      },
+      {
+        "value": "Items.COOKED_RABBIT"
+      },
+      {
+        "value": "Items.COOKED_PORKCHOP"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Blocks.SOUL_LANTERN"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Items.COOKED_FISH#1"
+      },
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "Items.CAKE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YuyukoItem"
+    },
+    "name": "yuyuko_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Blue Reimu",
+    "achievementDescription": "Obtain Blue Reimu with blue dye",
+    "achievementIcon": {
+      "value": "CUSTOM:BlueReimuIcon"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ReimuAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"39\" y=\"131\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

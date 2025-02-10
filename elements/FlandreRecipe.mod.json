@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "Items.CAKE"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.FIRE_CHARGE"
+      },
+      {
+        "value": "Items.SUGAR"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FlandreItem"
+    },
+    "name": "flandre_recipe",
+    "namespace": "mod"
+  }
+}

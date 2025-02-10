@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": "Blocks.YELLOW_FLOWER"
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#0"
+      },
+      {
+        "value": "Items.GLOW_BERRIES"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "Items.GLOW_BERRIES"
+      },
+      {
+        "value": "Items.GLOW_BERRIES"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.GLOW_BERRIES"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SunnyMilkItem"
+    },
+    "name": "sunny_milk_craft",
+    "namespace": "mod"
+  }
+}

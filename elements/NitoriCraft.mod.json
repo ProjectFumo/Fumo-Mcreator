@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.ENDER_EYE"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NitoriItem"
+    },
+    "name": "nitori_craft",
+    "namespace": "mod"
+  }
+}

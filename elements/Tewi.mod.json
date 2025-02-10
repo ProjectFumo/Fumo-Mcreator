@@ -1,0 +1,230 @@
+{
+  "_fv": 47,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Tewi",
+    "mobLabel": "",
+    "mobModelName": "ModelFumo",
+    "mobModelTexture": "tewi.png",
+    "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "modelWidth": 0.5,
+    "modelHeight": 1.0,
+    "modelShadowSize": 0.4,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13312,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 2,
+    "xpAmount": 0,
+    "waterMob": true,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": "CUSTOM:TewiItem"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
+      "value": "block.cloth.break"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "onRightClickedOn": {
+      "name": "FumoDespawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
+    "breedable": true,
+    "tameable": false,
+    "breedTriggerItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "Blocks.CAKE"
+      },
+      {
+        "value": "Items.COOKED_FISH#0"
+      },
+      {
+        "value": "Items.COOKED_FISH#1"
+      },
+      {
+        "value": "Items.COOKED_PORKCHOP"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Items.COOKED_CHICKEN"
+      },
+      {
+        "value": "Items.COOKED_RABBIT"
+      },
+      {
+        "value": "Items.COOKED_MUTTON"
+      },
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": "Items.CHICKEN"
+      },
+      {
+        "value": "Items.BEEF"
+      },
+      {
+        "value": "Items.PORKCHOP"
+      },
+      {
+        "value": "Items.RABBIT"
+      },
+      {
+        "value": "Items.MUSHROOM_STEW"
+      },
+      {
+        "value": "Items.SUSPICIOUS_STEW"
+      },
+      {
+        "value": "Items.RABBIT_STEW"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.BAKED_POTATO"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BEETROOT_SOUP"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "Items.CAKE"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "Items.SKULL#3"
+      },
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": "Items.HONEY_BOTTLE"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

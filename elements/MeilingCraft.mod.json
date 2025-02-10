@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.RED_FLOWER"
+      },
+      {
+        "value": "Blocks.LEAVES#1"
+      },
+      {
+        "value": "Blocks.RED_FLOWER"
+      },
+      {
+        "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Blocks.CHERRY_LEAVES"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      },
+      {
+        "value": "Blocks.BREWING_STAND"
+      },
+      {
+        "value": "Blocks.WATERLILY"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MeilingItem"
+    },
+    "name": "meiling_craft",
+    "namespace": "mod"
+  }
+}

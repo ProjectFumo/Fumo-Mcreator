@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Tan Cirno",
+    "achievementDescription": "Strike Cirno with Lightning",
+    "achievementIcon": {
+      "value": "CUSTOM:TanCirnoIcon"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:CirnoAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"16\" y=\"74\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

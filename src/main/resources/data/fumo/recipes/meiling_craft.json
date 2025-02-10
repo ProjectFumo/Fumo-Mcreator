@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:small_flowers"
+    },
+    "1": {
+      "item": "minecraft:spruce_leaves"
+    },
+    "2": {
+      "tag": "minecraft:small_flowers"
+    },
+    "3": {
+      "item": "minecraft:flowering_azalea_leaves"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:cherry_leaves"
+    },
+    "6": {
+      "item": "minecraft:lily_pad"
+    },
+    "7": {
+      "item": "minecraft:brewing_stand"
+    },
+    "8": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "item": "fumo:meiling_item",
+    "count": 1
+  }
+}

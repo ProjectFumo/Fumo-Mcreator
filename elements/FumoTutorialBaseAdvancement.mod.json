@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Game Mechanics",
+    "achievementDescription": "Fumo Game mechanics",
+    "achievementIcon": {
+      "value": "CUSTOM:Fumoitem"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:FumoAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"38\" y=\"61\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

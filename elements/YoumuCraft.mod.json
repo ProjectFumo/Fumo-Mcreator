@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DRIED_KELP_BLOCK"
+      },
+      {
+        "value": "Items.SALMON_BUCKET"
+      },
+      {
+        "value": "Blocks.DRIED_KELP_BLOCK"
+      },
+      {
+        "value": "Blocks.SEAGRASS"
+      },
+      {
+        "value": "Items.FISH"
+      },
+      {
+        "value": "Blocks.SEAGRASS"
+      },
+      {
+        "value": "Blocks.SOUL_LANTERN"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Blocks.SOUL_LANTERN"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YoumuItem"
+    },
+    "name": "youmu_craft",
+    "namespace": "mod"
+  }
+}

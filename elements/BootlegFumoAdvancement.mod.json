@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Bootleg Fumo's",
+    "achievementDescription": "Purchase Fumo's from [Wandering Traders]",
+    "achievementIcon": {
+      "value": "CUSTOM:ReimuItem"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:FumoAdvancement"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"43\" y=\"80\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

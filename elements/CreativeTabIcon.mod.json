@@ -1,0 +1,44 @@
+{
+  "_fv": 47,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "fumotabiconanimated",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Creative Tab Icon",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": "Items.DEBUG_STICK"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:tewi_item"
+    },
+    "title": {
+      "translate": "advancements.tewi_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.tewi_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tewi_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:tewi_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fumo:fumo_advancement"
+}

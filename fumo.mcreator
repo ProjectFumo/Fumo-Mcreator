@@ -1,0 +1,2726 @@
+{
+  "mod_elements": [
+    {
+      "name": "Reimu",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/ReimuEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/ReimuRenderer.java"
+        ]
+      },
+      "path": "~/BootlegReimu"
+    },
+    {
+      "name": "Marisa",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/MarisaRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/MarisaEntity.java"
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "MarisaHat",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/MarisaHatEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/MarisaHatRenderer.java"
+        ]
+      },
+      "path": "~/Marisa Hat"
+    },
+    {
+      "name": "Eiki",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eiki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/EikiEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/EikiRenderer.java"
+        ]
+      },
+      "path": "~/Eiki"
+    },
+    {
+      "name": "Fumoitem",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumoitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/fumoitem.json",
+          "src/main/java/net/mcreator/fumo/item/FumoitemItem.java"
+        ]
+      },
+      "path": "~/Base/Debug"
+    },
+    {
+      "name": "MarisaHatItem",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/MarisaHatItemItem.java",
+          "src/main/resources/assets/fumo/models/item/marisa_hat_item.json"
+        ]
+      },
+      "path": "~/Marisa Hat"
+    },
+    {
+      "name": "EikiItem",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eiki_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/EikiItemItem.java",
+          "src/main/resources/assets/fumo/models/item/eiki_item.json"
+        ]
+      },
+      "path": "~/Eiki"
+    },
+    {
+      "name": "ReimuItem",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimu_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/ReimuItemItem.java",
+          "src/main/resources/assets/fumo/models/item/reimu_item.json"
+        ]
+      },
+      "path": "~/BootlegReimu"
+    },
+    {
+      "name": "MarisaItem",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/MarisaItemItem.java",
+          "src/main/resources/assets/fumo/models/item/marisa_item.json"
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "FumoDespawn",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/FumoDespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "MarisaSpawn",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/MarisaSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "ReimuSpawn",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimu_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/ReimuSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BootlegReimu"
+    },
+    {
+      "name": "EikiSpawn",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eiki_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/EikiSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Eiki"
+    },
+    {
+      "name": "MarisaHatSpawn",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/MarisaHatSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Marisa Hat"
+    },
+    {
+      "name": "BaseSpawn",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/BaseSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Base/Debug"
+    },
+    {
+      "name": "ReimuCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimu_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/reimu_craft.json"
+        ]
+      },
+      "path": "~/Reimu"
+    },
+    {
+      "name": "Cirno",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/CirnoEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/CirnoRenderer.java"
+        ]
+      },
+      "path": "~/Cirno"
+    },
+    {
+      "name": "CirnoItem",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirno_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/cirno_item.json",
+          "src/main/java/net/mcreator/fumo/item/CirnoItemItem.java"
+        ]
+      },
+      "path": "~/Cirno"
+    },
+    {
+      "name": "CirnoSpawn",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirno_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/CirnoSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cirno"
+    },
+    {
+      "name": "TanCirnoSpawn",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tan_cirno_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/TanCirnoSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TanCirno"
+    },
+    {
+      "name": "TanCirno",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tan_cirno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/TanCirnoEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/TanCirnoRenderer.java"
+        ]
+      },
+      "path": "~/TanCirno"
+    },
+    {
+      "name": "TanCirnoItem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tan_cirno_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/TanCirnoItemItem.java",
+          "src/main/resources/assets/fumo/models/item/tan_cirno_item.json"
+        ]
+      },
+      "path": "~/TanCirno"
+    },
+    {
+      "name": "DebugFumo",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_fumo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/DebugFumoEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/DebugFumoRenderer.java"
+        ]
+      },
+      "path": "~/Base/Debug"
+    },
+    {
+      "name": "CirnoCraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirno_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/cirno_craft.json"
+        ]
+      },
+      "path": "~/Cirno"
+    },
+    {
+      "name": "CreateTanCirno",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_tan_cirno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/CreateTanCirnoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TanCirno"
+    },
+    {
+      "name": "EikiRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eiki_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/eiki_recipe.json"
+        ]
+      },
+      "path": "~/Eiki"
+    },
+    {
+      "name": "MarisaHatCrafting",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/marisa_hat_crafting.json"
+        ]
+      },
+      "path": "~/Marisa Hat"
+    },
+    {
+      "name": "MarisaNoHatCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_no_hat_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/marisa_no_hat_craft.json"
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "HitHatOffMarisa",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hit_hat_off_marisa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/HitHatOffMarisaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "ChenItem",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chen_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/ChenItemItem.java",
+          "src/main/resources/assets/fumo/models/item/chen_item.json"
+        ]
+      },
+      "path": "~/Chen"
+    },
+    {
+      "name": "Chen",
+      "type": "livingentity",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/ChenEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/ChenRenderer.java"
+        ]
+      },
+      "path": "~/Chen"
+    },
+    {
+      "name": "ChenSpawn",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chen_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/ChenSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chen"
+    },
+    {
+      "name": "CraftChen",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_chen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/craft_chen.json"
+        ]
+      },
+      "path": "~/Chen"
+    },
+    {
+      "name": "FumoRotate",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_rotate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/FumoRotateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "NewReimu",
+      "type": "livingentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_reimu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/NewReimuEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/NewReimuRenderer.java"
+        ]
+      },
+      "path": "~/Reimu"
+    },
+    {
+      "name": "NewReimuItem",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_reimu_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/new_reimu_item.json",
+          "src/main/java/net/mcreator/fumo/item/NewReimuItemItem.java"
+        ]
+      },
+      "path": "~/Reimu"
+    },
+    {
+      "name": "NewReimuSpawn",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_reimu_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/NewReimuSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Reimu"
+    },
+    {
+      "name": "BlueReimu",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_reimu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/BlueReimuRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/BlueReimuEntity.java"
+        ]
+      },
+      "path": "~/BlueReimu"
+    },
+    {
+      "name": "BlueReimuItem",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_reimu_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/BlueReimuItemItem.java",
+          "src/main/resources/assets/fumo/models/item/blue_reimu_item.json"
+        ]
+      },
+      "path": "~/BlueReimu"
+    },
+    {
+      "name": "BlueReimuSpawn",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_reimu_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/BlueReimuSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BlueReimu"
+    },
+    {
+      "name": "DyeReimu",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dye_reimu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/DyeReimuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Reimu"
+    },
+    {
+      "name": "Koishi",
+      "type": "livingentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/KoishiRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/KoishiEntity.java"
+        ]
+      },
+      "path": "~/Koishi"
+    },
+    {
+      "name": "KoishiItem",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/KoishiItemItem.java",
+          "src/main/resources/assets/fumo/models/item/koishi_item.json"
+        ]
+      },
+      "path": "~/Koishi"
+    },
+    {
+      "name": "KoishiSpawn",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/KoishiSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Koishi"
+    },
+    {
+      "name": "Flandre",
+      "type": "livingentity",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flandre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/FlandreRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/FlandreEntity.java"
+        ]
+      },
+      "path": "~/Flandre"
+    },
+    {
+      "name": "FlandreItem",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flandre_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/flandre_item.json",
+          "src/main/java/net/mcreator/fumo/item/FlandreItemItem.java"
+        ]
+      },
+      "path": "~/Flandre"
+    },
+    {
+      "name": "FlandreSpawn",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flandre_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/FlandreSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Flandre"
+    },
+    {
+      "name": "FumoTab",
+      "type": "tab",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "CreativeTabIcon",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/creative_tab_icon.json",
+          "src/main/java/net/mcreator/fumo/item/CreativeTabIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "InstantRotate",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_rotate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/InstantRotateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "KoishiRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/koishi_recipe.json"
+        ]
+      },
+      "path": "~/Koishi"
+    },
+    {
+      "name": "FlandreRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flandre_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/flandre_recipe.json"
+        ]
+      },
+      "path": "~/Flandre"
+    },
+    {
+      "name": "TanCirnoAchievement",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tan_cirno_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/tan_cirno_achievement.json"
+        ]
+      },
+      "path": "~/TanCirno"
+    },
+    {
+      "name": "CirnoAdvancement",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirno_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/cirno_advancement.json"
+        ]
+      },
+      "path": "~/Cirno"
+    },
+    {
+      "name": "ReimuAdvancement",
+      "type": "achievement",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimu_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/reimu_advancement.json"
+        ]
+      },
+      "path": "~/Reimu"
+    },
+    {
+      "name": "MarisaAdvancement",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/marisa_advancement.json"
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "MarisaHatAdvancement",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/marisa_hat_advancement.json"
+        ]
+      },
+      "path": "~/Marisa Hat"
+    },
+    {
+      "name": "EikiAdvancement",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eiki_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/eiki_advancement.json"
+        ]
+      },
+      "path": "~/Eiki"
+    },
+    {
+      "name": "ChenAdvancement",
+      "type": "achievement",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chen_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/chen_advancement.json"
+        ]
+      },
+      "path": "~/Chen"
+    },
+    {
+      "name": "BlueReimuAdvancement",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_reimu_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/blue_reimu_advancement.json"
+        ]
+      },
+      "path": "~/BlueReimu"
+    },
+    {
+      "name": "KoishiAdvancement",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/koishi_advancement.json"
+        ]
+      },
+      "path": "~/Koishi"
+    },
+    {
+      "name": "FlandeAdvancement",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flande_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/flande_advancement.json"
+        ]
+      },
+      "path": "~/Flandre"
+    },
+    {
+      "name": "FumoAdvancement",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/fumo_advancement.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "BootlegReimuTrade",
+      "type": "villagertrade",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bootleg_reimu_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/BootlegReimu"
+    },
+    {
+      "name": "BootlegFumoAdvancement",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bootleg_fumo_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/bootleg_fumo_advancement.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "BootLegReimuAdvancement",
+      "type": "achievement",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boot_leg_reimu_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/boot_leg_reimu_advancement.json"
+        ]
+      },
+      "path": "~/BootlegReimu"
+    },
+    {
+      "name": "Meiling",
+      "type": "livingentity",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/MeilingEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/MeilingRenderer.java"
+        ]
+      },
+      "path": "~/Meiling"
+    },
+    {
+      "name": "MeilingItem",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiling_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/MeilingItemItem.java",
+          "src/main/resources/assets/fumo/models/item/meiling_item.json"
+        ]
+      },
+      "path": "~/Meiling"
+    },
+    {
+      "name": "MeilingSpawn",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiling_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/MeilingSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Meiling"
+    },
+    {
+      "name": "MeilingAdvancement",
+      "type": "achievement",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiling_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/meiling_advancement.json"
+        ]
+      },
+      "path": "~/Meiling"
+    },
+    {
+      "name": "MeilingCraft",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiling_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/meiling_craft.json"
+        ]
+      },
+      "path": "~/Meiling"
+    },
+    {
+      "name": "Youmu",
+      "type": "livingentity",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youmu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/YoumuEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/YoumuRenderer.java"
+        ]
+      },
+      "path": "~/Youmu"
+    },
+    {
+      "name": "YoumuItem",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youmu_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/YoumuItemItem.java",
+          "src/main/resources/assets/fumo/models/item/youmu_item.json"
+        ]
+      },
+      "path": "~/Youmu"
+    },
+    {
+      "name": "YoumuSpawn",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youmu_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/YoumuSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Youmu"
+    },
+    {
+      "name": "YoumuAdvancement",
+      "type": "achievement",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youmu_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/youmu_advancement.json"
+        ]
+      },
+      "path": "~/Youmu"
+    },
+    {
+      "name": "YoumuCraft",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youmu_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/youmu_craft.json"
+        ]
+      },
+      "path": "~/Youmu"
+    },
+    {
+      "name": "TutorialAdvancementPickup",
+      "type": "achievement",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tutorial_advancement_pickup",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/tutorial_advancement_pickup.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "RotateFumoAdvancement",
+      "type": "achievement",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotate_fumo_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/rotate_fumo_advancement.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "FumoFeedAdvancement",
+      "type": "achievement",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_feed_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/fumo_feed_advancement.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "FumoTutorialBaseAdvancement",
+      "type": "achievement",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_tutorial_base_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/fumo_tutorial_base_advancement.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "ReimuIcon",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reimu_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/reimu_icon.json",
+          "src/main/java/net/mcreator/fumo/item/ReimuIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "MarisaIcon",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/marisa_icon.json",
+          "src/main/java/net/mcreator/fumo/item/MarisaIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "CirnoIcon",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cirno_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/CirnoIconItem.java",
+          "src/main/resources/assets/fumo/models/item/cirno_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "EikiIcon",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eiki_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/EikiIconItem.java",
+          "src/main/resources/assets/fumo/models/item/eiki_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "FlanIcon",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flan_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/FlanIconItem.java",
+          "src/main/resources/assets/fumo/models/item/flan_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "KoishiIcon",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koishi_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/koishi_icon.json",
+          "src/main/java/net/mcreator/fumo/item/KoishiIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "MarisaHatIcon",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/MarisaHatIconItem.java",
+          "src/main/resources/assets/fumo/models/item/marisa_hat_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "MeilingIcon",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meiling_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/meiling_icon.json",
+          "src/main/java/net/mcreator/fumo/item/MeilingIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "BootlegReimuIcon",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bootleg_reimu_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/bootleg_reimu_icon.json",
+          "src/main/java/net/mcreator/fumo/item/BootlegReimuIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "TanCirnoIcon",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tan_cirno_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/TanCirnoIconItem.java",
+          "src/main/resources/assets/fumo/models/item/tan_cirno_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "YoumuIcon",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youmu_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/YoumuIconItem.java",
+          "src/main/resources/assets/fumo/models/item/youmu_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "ChenIcon",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chen_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/chen_icon.json",
+          "src/main/java/net/mcreator/fumo/item/ChenIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "BlueReimuIcon",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_reimu_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/BlueReimuIconItem.java",
+          "src/main/resources/assets/fumo/models/item/blue_reimu_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "FumoRotateIcon",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_rotate_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/FumoRotateIconItem.java",
+          "src/main/resources/assets/fumo/models/item/fumo_rotate_icon.json"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "ItemSpinIcon",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_spin_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/item_spin_icon.json",
+          "src/main/java/net/mcreator/fumo/item/ItemSpinIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "Yuyuko",
+      "type": "livingentity",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuyuko",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/YuyukoRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/YuyukoEntity.java"
+        ]
+      },
+      "path": "~/Yuyuko"
+    },
+    {
+      "name": "YuyukoItem",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuyuko_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/yuyuko_item.json",
+          "src/main/java/net/mcreator/fumo/item/YuyukoItemItem.java"
+        ]
+      },
+      "path": "~/Yuyuko"
+    },
+    {
+      "name": "YuyukoSpawn",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuyuko_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/YuyukoSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Yuyuko"
+    },
+    {
+      "name": "YuyukoAdvancement",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuyuko_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/yuyuko_advancement.json"
+        ]
+      },
+      "path": "~/Yuyuko"
+    },
+    {
+      "name": "YuyukoCraft",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuyuko_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/yuyuko_craft.json"
+        ]
+      },
+      "path": "~/Yuyuko"
+    },
+    {
+      "name": "YuyukoIcon",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yuyuko_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/yuyuko_icon.json",
+          "src/main/java/net/mcreator/fumo/item/YuyukoIconItem.java"
+        ]
+      },
+      "path": "~/Base/Icons"
+    },
+    {
+      "name": "Patchouli",
+      "type": "livingentity",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patchouli",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/PatchouliEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/PatchouliRenderer.java"
+        ]
+      },
+      "path": "~/Patchouli"
+    },
+    {
+      "name": "PatchouliItem",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patchouli_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/PatchouliItemItem.java",
+          "src/main/resources/assets/fumo/models/item/patchouli_item.json"
+        ]
+      },
+      "path": "~/Patchouli"
+    },
+    {
+      "name": "PatchouliSpawn",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patchouli_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/PatchouliSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Patchouli"
+    },
+    {
+      "name": "PatchouliAdvancement",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patchouli_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/patchouli_advancement.json"
+        ]
+      },
+      "path": "~/Patchouli"
+    },
+    {
+      "name": "PatchouliCraft",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patchouli_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/patchouli_craft.json"
+        ]
+      },
+      "path": "~/Patchouli"
+    },
+    {
+      "name": "FumoPickupMechanic",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumo_pickup_mechanic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/fumo_pickup_mechanic.json"
+        ]
+      },
+      "path": "~/Base/BaseAdvancements"
+    },
+    {
+      "name": "Nitori",
+      "type": "livingentity",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitori",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/NitoriEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/NitoriRenderer.java"
+        ]
+      },
+      "path": "~/Nitori"
+    },
+    {
+      "name": "NitoriItem",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitori_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/NitoriItemItem.java",
+          "src/main/resources/assets/fumo/models/item/nitori_item.json"
+        ]
+      },
+      "path": "~/Nitori"
+    },
+    {
+      "name": "NitoriSpawn",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitori_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/NitoriSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nitori"
+    },
+    {
+      "name": "NitoriAdvancement",
+      "type": "achievement",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitori_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/nitori_advancement.json"
+        ]
+      },
+      "path": "~/Nitori"
+    },
+    {
+      "name": "NitoriCraft",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitori_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/nitori_craft.json"
+        ]
+      },
+      "path": "~/Nitori"
+    },
+    {
+      "name": "Tewi",
+      "type": "livingentity",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tewi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/TewiRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/TewiEntity.java"
+        ]
+      },
+      "path": "~/Tewi"
+    },
+    {
+      "name": "TewiItem",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tewi_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fumo/models/item/tewi_item.json",
+          "src/main/java/net/mcreator/fumo/item/TewiItemItem.java"
+        ]
+      },
+      "path": "~/Tewi"
+    },
+    {
+      "name": "TewiSpawn",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tewi_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/TewiSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tewi"
+    },
+    {
+      "name": "TewiAdvancement",
+      "type": "achievement",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tewi_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/tewi_advancement.json"
+        ]
+      },
+      "path": "~/Tewi"
+    },
+    {
+      "name": "TewiCraft",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tewi_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/tewi_craft.json"
+        ]
+      },
+      "path": "~/Tewi"
+    },
+    {
+      "name": "Nazrin",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazrin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/client/renderer/NazrinRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/NazrinEntity.java"
+        ]
+      },
+      "path": "~/Nazrin"
+    },
+    {
+      "name": "NazrinItem",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazrin_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/NazrinItemItem.java",
+          "src/main/resources/assets/fumo/models/item/nazrin_item.json"
+        ]
+      },
+      "path": "~/Nazrin"
+    },
+    {
+      "name": "NazrinSpawn",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazrin_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/NazrinSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Nazrin"
+    },
+    {
+      "name": "NazrinAdvancement",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazrin_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/nazrin_advancement.json"
+        ]
+      },
+      "path": "~/Nazrin"
+    },
+    {
+      "name": "NazrinCraft",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazrin_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/nazrin_craft.json"
+        ]
+      },
+      "path": "~/Nazrin"
+    },
+    {
+      "name": "CustomKillEntityNoXP",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custom_kill_entity_no_xp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/CustomKillEntityNoXPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Base"
+    },
+    {
+      "name": "SunnyMilk",
+      "type": "livingentity",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunny_milk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/SunnyMilkEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/SunnyMilkRenderer.java"
+        ]
+      },
+      "path": "~/SunnyMilk"
+    },
+    {
+      "name": "SunnyMilkItem",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunny_milk_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/SunnyMilkItemItem.java",
+          "src/main/resources/assets/fumo/models/item/sunny_milk_item.json"
+        ]
+      },
+      "path": "~/SunnyMilk"
+    },
+    {
+      "name": "SunnyMilkSpawn",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunny_milk_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/SunnyMilkSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SunnyMilk"
+    },
+    {
+      "name": "SunnyMilkAdvancement",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunny_milk_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/sunny_milk_advancement.json"
+        ]
+      },
+      "path": "~/SunnyMilk"
+    },
+    {
+      "name": "SunnyMilkCraft",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunny_milk_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/sunny_milk_craft.json"
+        ]
+      },
+      "path": "~/SunnyMilk"
+    },
+    {
+      "name": "AliceItem",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alice_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/item/AliceItemItem.java",
+          "src/main/resources/assets/fumo/models/item/alice_item.json"
+        ]
+      },
+      "path": "~/Alice"
+    },
+    {
+      "name": "Alice",
+      "type": "livingentity",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/entity/AliceEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/AliceRenderer.java"
+        ]
+      },
+      "path": "~/Alice"
+    },
+    {
+      "name": "AliceSpawn",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alice_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fumo/procedures/AliceSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alice"
+    },
+    {
+      "name": "AliceAdvancement",
+      "type": "achievement",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alice_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/advancements/alice_advancement.json"
+        ]
+      },
+      "path": "~/Alice"
+    },
+    {
+      "name": "AliceCraft",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alice_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipes/alice_craft.json"
+        ]
+      },
+      "path": "~/Alice"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "fumo_scream",
+      "files": [
+        "aaaaaaa"
+      ],
+      "category": "neutral",
+      "subtitle": "Fumo"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.tan_cirno_achievement.descr": "Strike Cirno with Lightning",
+      "item.fumo.nitori_item": "Nitori",
+      "item.fumo.youmu_item": "Youmu",
+      "item.fumo.creative_tab_icon": "Creative Tab Icon",
+      "item.fumo.marisa_hat_icon": "Icon",
+      "item.fumo.marisa_item": "Marisa Kirisame",
+      "advancements.fumo_pickup_mechanic.title": "Pickup a Fumo",
+      "item.fumo.tan_cirno_item": "Tan Cirno",
+      "entity.fumo.yuyuko": "Yuyuko",
+      "advancements.tewi_advancement.descr": "Obtain Tewi",
+      "entity.fumo.cirno": "Cirno",
+      "item.fumo.koishi_icon": "Icon",
+      "entity.fumo.alice": "Alice",
+      "entity.fumo.debug_fumo": "Debug Fumo",
+      "advancements.youmu_advancement.title": "Youmu",
+      "advancements.blue_reimu_advancement.descr": "Obtain Blue Reimu with blue dye",
+      "advancements.meiling_advancement.title": "Meiling",
+      "item.fumo.nazrin_item": "Nazrin",
+      "advancements.koishi_advancement.descr": "Obtain Koishi",
+      "item.fumo.eiki_icon": "Icon",
+      "item.fumo.item_spin_icon": "Icon",
+      "item.fumo.sunny_milk_item": "Sunny Milk",
+      "advancements.boot_leg_reimu_advancement.descr": "Obtain Reimu bootleg",
+      "advancements.chen_advancement.descr": "Obtain Chen",
+      "item.fumo.chen_icon": "Icon",
+      "advancements.sunny_milk_advancement.descr": "Obtain Sunny Milk",
+      "advancements.flande_advancement.descr": "Obtain Flandre",
+      "subtitles.fumo_scream": "Fumo",
+      "advancements.tutorial_advancement_pickup.title": "Food Poisoning",
+      "advancements.nitori_advancement.descr": "Obtain Nitori",
+      "item.fumo.koishi_item": "Koishi Komeiji",
+      "advancements.cirno_advancement.descr": "Obtain Cirno",
+      "item.fumo.new_reimu_item": "Reimu Hakurei",
+      "advancements.yuyuko_advancement.title": "Yuyuko",
+      "advancements.eiki_advancement.title": "Eiki",
+      "item.fumo.tewi_item": "Tewi",
+      "advancements.yuyuko_advancement.descr": "Obtain Yuyuko",
+      "advancements.bootleg_fumo_advancement.descr": "Purchase Fumo\u0027s from [Wandering Traders]",
+      "entity.fumo.sunny_milk": "Sunny Milk",
+      "item.fumo.patchouli_item": "Patchouli",
+      "advancements.rotate_fumo_advancement.descr": "Rotate a Fumo with a carrot on a stick!",
+      "advancements.nazrin_advancement.title": "Nazrin",
+      "item.fumo.reimu_icon": "Icon",
+      "entity.fumo.tan_cirno": "Tan Cirno",
+      "advancements.marisa_hat_advancement.title": "Marisa",
+      "entity.fumo.youmu": "Youmu",
+      "item.fumo.flan_icon": "Icon",
+      "advancements.koishi_advancement.title": "Koishi",
+      "entity.fumo.patchouli": "Patchouli",
+      "advancements.flande_advancement.title": "Flandre",
+      "item.fumo.blue_reimu_icon": "Icon",
+      "advancements.reimu_advancement.title": "Reimu",
+      "item.fumo.yuyuko_icon": "Icon",
+      "advancements.boot_leg_reimu_advancement.title": "Bootleg Reimu",
+      "advancements.tewi_advancement.title": "Tewi",
+      "advancements.patchouli_advancement.title": "Patchouli",
+      "item.fumo.cirno_icon": "Icon",
+      "item.fumo.fumoitem": "Debug Fumo",
+      "entity.fumo.chen": "Chen",
+      "item.fumo.chen_item": "Chen",
+      "advancements.tan_cirno_achievement.title": "Tan Cirno",
+      "item.fumo.eiki_item": "Eiki Shiki",
+      "item.fumo.marisa_hat_item": "Marisa Kirisame",
+      "entity.fumo.new_reimu": "Reimu Hakurei",
+      "advancements.marisa_hat_advancement.descr": "Obtain Marisa",
+      "entity.fumo.reimu": "Bootleg Reimu Hakurei",
+      "item.fumo.meiling_item": "Meiling",
+      "advancements.fumo_pickup_mechanic.descr": "Pickup a Fumo while sneaking",
+      "entity.fumo.blue_reimu": "Reimu Hakurei",
+      "item_group.fumo.fumo_tab": "Fumo",
+      "advancements.bootleg_fumo_advancement.title": "Bootleg Fumo\u0027s",
+      "entity.fumo.marisa_hat": "Marisa Kirisame",
+      "advancements.nitori_advancement.title": "Nitori",
+      "advancements.marisa_advancement.descr": "Obtain Hatless Marisa by cooking her in a furnace.",
+      "item.fumo.tan_cirno_icon": "Icon",
+      "advancements.fumo_tutorial_base_advancement.title": "Game Mechanics",
+      "item.fumo.marisa_icon": "Icon",
+      "advancements.cirno_advancement.title": "Cirno",
+      "advancements.reimu_advancement.descr": "Obtain Reimu",
+      "advancements.fumo_feed_advancement.descr": "Give a Fumo a little treat",
+      "entity.fumo.meiling": "Meiling",
+      "advancements.fumo_advancement.title": "Fumo",
+      "advancements.fumo_feed_advancement.title": "Hungry little Fumo",
+      "advancements.alice_advancement.title": "Alice",
+      "advancements.alice_advancement.descr": "Obtain Alice",
+      "advancements.meiling_advancement.descr": "Obtain Meiling",
+      "advancements.blue_reimu_advancement.title": "Blue Reimu",
+      "advancements.youmu_advancement.descr": "Obtain Youmu",
+      "item.fumo.flandre_item": "Flandre Scarlet",
+      "item.fumo.alice_item": "Alice",
+      "item.fumo.blue_reimu_item": "Blue Reimu Hakurei",
+      "advancements.eiki_advancement.descr": "Obtain Eiki",
+      "advancements.tutorial_advancement_pickup.descr": "Use [Rotten Flesh] or an [Poisonous Potato] to knock-out Fumo\u0027s",
+      "entity.fumo.koishi": "Koishi Komeiji",
+      "item.fumo.bootleg_reimu_icon": "Icon",
+      "advancements.rotate_fumo_advancement.title": "Fumo Rotate.",
+      "advancements.nazrin_advancement.descr": "Obtain Nazrin",
+      "item.fumo.meiling_icon": "Icon",
+      "item.fumo.fumo_rotate_icon": "Fumo Rotate Icon",
+      "advancements.sunny_milk_advancement.title": "Sunny Milk",
+      "entity.fumo.eiki": "Eiki Shiki",
+      "item.fumo.cirno_item": "Cirno",
+      "advancements.fumo_tutorial_base_advancement.descr": "Fumo Game mechanics",
+      "advancements.patchouli_advancement.descr": "Obtain Patchouli",
+      "item.fumo.yuyuko_item": "Yuyuko",
+      "entity.fumo.tewi": "Tewi",
+      "entity.fumo.flandre": "Flandre Scarlet",
+      "advancements.fumo_advancement.descr": "Adventure with marketable plushies",
+      "item.fumo.youmu_icon": "Icon",
+      "entity.fumo.marisa": "Marisa Kirisame",
+      "entity.fumo.nazrin": "Nazrin",
+      "advancements.chen_advancement.title": "Chen",
+      "entity.fumo.nitori": "Nitori",
+      "advancements.marisa_advancement.title": "Hatless Marisa",
+      "item.fumo.reimu_item": "Bootleg Reimu Hakurei"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Marisa Hat",
+        "children": []
+      },
+      {
+        "name": "BootlegReimu",
+        "children": []
+      },
+      {
+        "name": "Eiki",
+        "children": []
+      },
+      {
+        "name": "Marisa",
+        "children": []
+      },
+      {
+        "name": "Base",
+        "children": [
+          {
+            "name": "Icons",
+            "children": []
+          },
+          {
+            "name": "Debug",
+            "children": []
+          },
+          {
+            "name": "BaseAdvancements",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Cirno",
+        "children": []
+      },
+      {
+        "name": "TanCirno",
+        "children": []
+      },
+      {
+        "name": "Chen",
+        "children": []
+      },
+      {
+        "name": "Reimu",
+        "children": []
+      },
+      {
+        "name": "BlueReimu",
+        "children": []
+      },
+      {
+        "name": "Koishi",
+        "children": []
+      },
+      {
+        "name": "Flandre",
+        "children": []
+      },
+      {
+        "name": "Meiling",
+        "children": []
+      },
+      {
+        "name": "Youmu",
+        "children": []
+      },
+      {
+        "name": "Yuyuko",
+        "children": []
+      },
+      {
+        "name": "Patchouli",
+        "children": []
+      },
+      {
+        "name": "Nitori",
+        "children": []
+      },
+      {
+        "name": "Tewi",
+        "children": []
+      },
+      {
+        "name": "Nazrin",
+        "children": []
+      },
+      {
+        "name": "SunnyMilk",
+        "children": []
+      },
+      {
+        "name": "Alice",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fumo",
+    "modName": "Fumo",
+    "version": "15.0.0",
+    "description": "Adds Fumos from Touhou.",
+    "author": "VegaKey",
+    "websiteURL": "https://modrinth.com/mod/fumo",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "eiki",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fumo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

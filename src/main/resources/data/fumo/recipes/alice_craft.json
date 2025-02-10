@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sunflower"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "minecraft:sunflower"
+    },
+    "3": {
+      "item": "minecraft:blue_wool"
+    },
+    "4": {
+      "item": "minecraft:red_mushroom"
+    },
+    "5": {
+      "item": "minecraft:blue_wool"
+    },
+    "6": {
+      "item": "minecraft:blue_wool"
+    },
+    "7": {
+      "item": "minecraft:milk_bucket"
+    },
+    "8": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:alice_item",
+    "count": 1
+  }
+}

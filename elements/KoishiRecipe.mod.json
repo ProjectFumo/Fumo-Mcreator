@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "Items.GLOW_INK_SAC"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KoishiItem"
+    },
+    "name": "koishi_recipe",
+    "namespace": "mod"
+  }
+}

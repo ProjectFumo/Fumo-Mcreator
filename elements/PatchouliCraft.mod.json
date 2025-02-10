@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.NETHER_WART"
+      },
+      {
+        "value": "Blocks.NETHER_WART"
+      },
+      {
+        "value": "Blocks.NETHER_WART"
+      },
+      {
+        "value": "Items.WRITABLE_BOOK"
+      },
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "Items.MUSHROOM_STEW"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.MUSHROOM_STEW"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PatchouliItem"
+    },
+    "name": "patchouli_craft",
+    "namespace": "mod"
+  }
+}

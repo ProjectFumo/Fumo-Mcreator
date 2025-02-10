@@ -1,0 +1,134 @@
+{
+  "_fv": 47,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Marisa Kirisame",
+    "mobLabel": "",
+    "mobModelName": "ModelFumo",
+    "mobModelTexture": "marisa.png",
+    "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "modelWidth": 0.5,
+    "modelHeight": 1.0,
+    "modelShadowSize": 0.4,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13312,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 2,
+    "xpAmount": 0,
+    "waterMob": true,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": "CUSTOM:MarisaItem"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
+      "value": "block.cloth.break"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "onRightClickedOn": {
+      "name": "FumoDespawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
+    "breedable": true,
+    "tameable": false,
+    "breedTriggerItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "Blocks.CAKE"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

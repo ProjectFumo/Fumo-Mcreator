@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:cirno_icon"
+    },
+    "title": {
+      "translate": "advancements.cirno_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.cirno_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cirno_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:cirno_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fumo:fumo_advancement"
+}

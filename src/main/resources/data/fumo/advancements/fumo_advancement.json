@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "fumo:creative_tab_icon"
+    },
+    "title": {
+      "translate": "advancements.fumo_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.fumo_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fumo_advancement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

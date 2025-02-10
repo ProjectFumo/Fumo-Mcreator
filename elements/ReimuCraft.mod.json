@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": "Blocks.STONEBRICK#0"
+      },
+      {
+        "value": "Blocks.WOOL#14"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.PAPER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NewReimuItem"
+    },
+    "name": "reimu_craft",
+    "namespace": "mod"
+  }
+}

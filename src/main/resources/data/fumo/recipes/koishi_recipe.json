@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:salmon"
+    },
+    "3": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "4": {
+      "item": "minecraft:potion"
+    },
+    "5": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "7": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "fumo:koishi_item",
+    "count": 1
+  }
+}
