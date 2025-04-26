@@ -19,7 +19,6 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.fumo.init.FumoModTabs;
-import net.mcreator.fumo.init.FumoModSounds;
 import net.mcreator.fumo.init.FumoModItems;
 import net.mcreator.fumo.init.FumoModEntities;
 
@@ -40,7 +39,6 @@ public class FumoMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-		FumoModSounds.REGISTRY.register(modEventBus);
 
 		FumoModItems.REGISTRY.register(modEventBus);
 		FumoModEntities.REGISTRY.register(modEventBus);

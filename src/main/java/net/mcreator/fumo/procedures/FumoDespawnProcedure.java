@@ -62,19 +62,12 @@ public class FumoDespawnProcedure {
 					}
 					FumoMod.queueServerWork(10, () -> {
 						CustomKillEntityNoXPProcedure.execute(world, entity);
-						if (world instanceof Level _level) {
-							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fumo:fumo_scream")), SoundSource.VOICE, 1, 1);
-							} else {
-								_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("fumo:fumo_scream")), SoundSource.VOICE, 1, 1, false);
-							}
-						}
 						if (!entity.level().isClientSide())
 							entity.discard();
 					});
 				}
 			}
 		}
-		FumoRotateProcedure.execute(entity, sourceentity);
+		FumoRotateProcedure.execute(world, entity, sourceentity);
 	}
 }

@@ -8,8 +8,8 @@
       "registry_name": "reimu",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/ReimuEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/ReimuRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/ReimuRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/ReimuEntity.java"
         ]
       },
       "path": "~/BootlegReimu"
@@ -22,8 +22,8 @@
       "registry_name": "marisa",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/client/renderer/MarisaRenderer.java",
-          "src/main/java/net/mcreator/fumo/entity/MarisaEntity.java"
+          "src/main/java/net/mcreator/fumo/entity/MarisaEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/MarisaRenderer.java"
         ]
       },
       "path": "~/Marisa"
@@ -36,8 +36,8 @@
       "registry_name": "marisa_hat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/client/renderer/MarisaHatRenderer.java",
-          "src/main/java/net/mcreator/fumo/entity/MarisaHatEntity.java"
+          "src/main/java/net/mcreator/fumo/entity/MarisaHatEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/MarisaHatRenderer.java"
         ]
       },
       "path": "~/Marisa Hat"
@@ -50,8 +50,8 @@
       "registry_name": "eiki",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/client/renderer/EikiRenderer.java",
-          "src/main/java/net/mcreator/fumo/entity/EikiEntity.java"
+          "src/main/java/net/mcreator/fumo/entity/EikiEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/EikiRenderer.java"
         ]
       },
       "path": "~/Eiki"
@@ -475,8 +475,8 @@
       "registry_name": "debug_fumo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/DebugFumoEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/DebugFumoRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/DebugFumoRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/DebugFumoEntity.java"
         ]
       },
       "path": "~/Base/Debug"
@@ -605,8 +605,8 @@
       "registry_name": "chen",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/ChenEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/ChenRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/ChenRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/ChenEntity.java"
         ]
       },
       "path": "~/Chen"
@@ -677,6 +677,10 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1671,8 +1675,8 @@
       "registry_name": "yuyuko",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/client/renderer/YuyukoRenderer.java",
-          "src/main/java/net/mcreator/fumo/entity/YuyukoEntity.java"
+          "src/main/java/net/mcreator/fumo/entity/YuyukoEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/YuyukoRenderer.java"
         ]
       },
       "path": "~/Yuyuko"
@@ -2054,8 +2058,8 @@
       "registry_name": "nazrin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/client/renderer/NazrinRenderer.java",
-          "src/main/java/net/mcreator/fumo/entity/NazrinEntity.java"
+          "src/main/java/net/mcreator/fumo/entity/NazrinEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/NazrinRenderer.java"
         ]
       },
       "path": "~/Nazrin"
@@ -2338,16 +2342,7 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "fumo_scream",
-      "files": [
-        "aaaaaaa"
-      ],
-      "category": "neutral",
-      "subtitle": "Fumo"
-    }
-  ],
+  "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
