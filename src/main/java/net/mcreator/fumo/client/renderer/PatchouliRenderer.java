@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class PatchouliRenderer extends MobRenderer<PatchouliEntity, ModelFumo<PatchouliEntity>> {
 	public PatchouliRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<PatchouliEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(PatchouliEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/patchouli.png");
+		return ResourceLocation.parse("fumo:textures/entities/patchouli.png");
 	}
 }

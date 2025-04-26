@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sunflower"
+    },
+    "b": {
+      "item": "minecraft:dandelion"
+    },
+    "c": {
+      "item": "minecraft:glow_berries"
+    },
+    "d": {
+      "item": "minecraft:golden_carrot"
+    },
+    "e": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "fumo:sunny_milk_item",
+    "count": 1
+  }
+}

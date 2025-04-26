@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "b": {
+      "item": "minecraft:cooked_rabbit"
+    },
+    "c": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "d": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "e": {
+      "item": "minecraft:soul_lantern"
+    },
+    "f": {
+      "item": "minecraft:cooked_beef"
+    },
+    "g": {
+      "item": "minecraft:cooked_salmon"
+    },
+    "h": {
+      "item": "minecraft:cookie"
+    },
+    "i": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "id": "fumo:yuyuko_item",
+    "count": 1
+  }
+}

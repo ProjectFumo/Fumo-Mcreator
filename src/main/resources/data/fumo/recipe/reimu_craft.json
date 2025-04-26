@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_wool"
+    },
+    "b": {
+      "item": "minecraft:stone_bricks"
+    },
+    "c": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "d": {
+      "item": "minecraft:obsidian"
+    },
+    "e": {
+      "item": "minecraft:paper"
+    },
+    "f": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "fumo:new_reimu_item",
+    "count": 1
+  }
+}

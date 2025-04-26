@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "b": {
+      "item": "minecraft:salmon_bucket"
+    },
+    "c": {
+      "item": "minecraft:seagrass"
+    },
+    "d": {
+      "item": "minecraft:air"
+    },
+    "e": {
+      "item": "minecraft:soul_lantern"
+    },
+    "f": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "fumo:youmu_item",
+    "count": 1
+  }
+}

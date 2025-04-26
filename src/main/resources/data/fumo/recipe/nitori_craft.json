@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_eye"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "item": "minecraft:bamboo"
+    },
+    "d": {
+      "item": "minecraft:lily_pad"
+    },
+    "e": {
+      "item": "minecraft:slime_ball"
+    },
+    "f": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "id": "fumo:nitori_item",
+    "count": 1
+  }
+}

@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class MeilingRenderer extends MobRenderer<MeilingEntity, ModelFumo<MeilingEntity>> {
 	public MeilingRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<MeilingEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(MeilingEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/meiling.png");
+		return ResourceLocation.parse("fumo:textures/entities/meiling.png");
 	}
 }

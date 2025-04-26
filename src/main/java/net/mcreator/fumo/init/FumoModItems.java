@@ -4,9 +4,8 @@
  */
 package net.mcreator.fumo.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 import net.minecraft.world.item.Item;
 
@@ -51,43 +50,45 @@ import net.mcreator.fumo.item.AliceItemItem;
 import net.mcreator.fumo.FumoMod;
 
 public class FumoModItems {
-	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FumoMod.MODID);
-	public static final RegistryObject<Item> FUMOITEM = REGISTRY.register("fumoitem", () -> new FumoitemItem());
-	public static final RegistryObject<Item> MARISA_HAT_ITEM = REGISTRY.register("marisa_hat_item", () -> new MarisaHatItemItem());
-	public static final RegistryObject<Item> EIKI_ITEM = REGISTRY.register("eiki_item", () -> new EikiItemItem());
-	public static final RegistryObject<Item> REIMU_ITEM = REGISTRY.register("reimu_item", () -> new ReimuItemItem());
-	public static final RegistryObject<Item> MARISA_ITEM = REGISTRY.register("marisa_item", () -> new MarisaItemItem());
-	public static final RegistryObject<Item> CIRNO_ITEM = REGISTRY.register("cirno_item", () -> new CirnoItemItem());
-	public static final RegistryObject<Item> TAN_CIRNO_ITEM = REGISTRY.register("tan_cirno_item", () -> new TanCirnoItemItem());
-	public static final RegistryObject<Item> CHEN_ITEM = REGISTRY.register("chen_item", () -> new ChenItemItem());
-	public static final RegistryObject<Item> NEW_REIMU_ITEM = REGISTRY.register("new_reimu_item", () -> new NewReimuItemItem());
-	public static final RegistryObject<Item> BLUE_REIMU_ITEM = REGISTRY.register("blue_reimu_item", () -> new BlueReimuItemItem());
-	public static final RegistryObject<Item> KOISHI_ITEM = REGISTRY.register("koishi_item", () -> new KoishiItemItem());
-	public static final RegistryObject<Item> FLANDRE_ITEM = REGISTRY.register("flandre_item", () -> new FlandreItemItem());
-	public static final RegistryObject<Item> CREATIVE_TAB_ICON = REGISTRY.register("creative_tab_icon", () -> new CreativeTabIconItem());
-	public static final RegistryObject<Item> MEILING_ITEM = REGISTRY.register("meiling_item", () -> new MeilingItemItem());
-	public static final RegistryObject<Item> YOUMU_ITEM = REGISTRY.register("youmu_item", () -> new YoumuItemItem());
-	public static final RegistryObject<Item> REIMU_ICON = REGISTRY.register("reimu_icon", () -> new ReimuIconItem());
-	public static final RegistryObject<Item> MARISA_ICON = REGISTRY.register("marisa_icon", () -> new MarisaIconItem());
-	public static final RegistryObject<Item> CIRNO_ICON = REGISTRY.register("cirno_icon", () -> new CirnoIconItem());
-	public static final RegistryObject<Item> EIKI_ICON = REGISTRY.register("eiki_icon", () -> new EikiIconItem());
-	public static final RegistryObject<Item> FLAN_ICON = REGISTRY.register("flan_icon", () -> new FlanIconItem());
-	public static final RegistryObject<Item> KOISHI_ICON = REGISTRY.register("koishi_icon", () -> new KoishiIconItem());
-	public static final RegistryObject<Item> MARISA_HAT_ICON = REGISTRY.register("marisa_hat_icon", () -> new MarisaHatIconItem());
-	public static final RegistryObject<Item> MEILING_ICON = REGISTRY.register("meiling_icon", () -> new MeilingIconItem());
-	public static final RegistryObject<Item> BOOTLEG_REIMU_ICON = REGISTRY.register("bootleg_reimu_icon", () -> new BootlegReimuIconItem());
-	public static final RegistryObject<Item> TAN_CIRNO_ICON = REGISTRY.register("tan_cirno_icon", () -> new TanCirnoIconItem());
-	public static final RegistryObject<Item> YOUMU_ICON = REGISTRY.register("youmu_icon", () -> new YoumuIconItem());
-	public static final RegistryObject<Item> CHEN_ICON = REGISTRY.register("chen_icon", () -> new ChenIconItem());
-	public static final RegistryObject<Item> BLUE_REIMU_ICON = REGISTRY.register("blue_reimu_icon", () -> new BlueReimuIconItem());
-	public static final RegistryObject<Item> FUMO_ROTATE_ICON = REGISTRY.register("fumo_rotate_icon", () -> new FumoRotateIconItem());
-	public static final RegistryObject<Item> ITEM_SPIN_ICON = REGISTRY.register("item_spin_icon", () -> new ItemSpinIconItem());
-	public static final RegistryObject<Item> YUYUKO_ITEM = REGISTRY.register("yuyuko_item", () -> new YuyukoItemItem());
-	public static final RegistryObject<Item> YUYUKO_ICON = REGISTRY.register("yuyuko_icon", () -> new YuyukoIconItem());
-	public static final RegistryObject<Item> PATCHOULI_ITEM = REGISTRY.register("patchouli_item", () -> new PatchouliItemItem());
-	public static final RegistryObject<Item> NITORI_ITEM = REGISTRY.register("nitori_item", () -> new NitoriItemItem());
-	public static final RegistryObject<Item> TEWI_ITEM = REGISTRY.register("tewi_item", () -> new TewiItemItem());
-	public static final RegistryObject<Item> NAZRIN_ITEM = REGISTRY.register("nazrin_item", () -> new NazrinItemItem());
-	public static final RegistryObject<Item> SUNNY_MILK_ITEM = REGISTRY.register("sunny_milk_item", () -> new SunnyMilkItemItem());
-	public static final RegistryObject<Item> ALICE_ITEM = REGISTRY.register("alice_item", () -> new AliceItemItem());
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(FumoMod.MODID);
+	public static final DeferredItem<Item> FUMOITEM = REGISTRY.register("fumoitem", FumoitemItem::new);
+	public static final DeferredItem<Item> MARISA_HAT_ITEM = REGISTRY.register("marisa_hat_item", MarisaHatItemItem::new);
+	public static final DeferredItem<Item> EIKI_ITEM = REGISTRY.register("eiki_item", EikiItemItem::new);
+	public static final DeferredItem<Item> REIMU_ITEM = REGISTRY.register("reimu_item", ReimuItemItem::new);
+	public static final DeferredItem<Item> MARISA_ITEM = REGISTRY.register("marisa_item", MarisaItemItem::new);
+	public static final DeferredItem<Item> CIRNO_ITEM = REGISTRY.register("cirno_item", CirnoItemItem::new);
+	public static final DeferredItem<Item> TAN_CIRNO_ITEM = REGISTRY.register("tan_cirno_item", TanCirnoItemItem::new);
+	public static final DeferredItem<Item> CHEN_ITEM = REGISTRY.register("chen_item", ChenItemItem::new);
+	public static final DeferredItem<Item> NEW_REIMU_ITEM = REGISTRY.register("new_reimu_item", NewReimuItemItem::new);
+	public static final DeferredItem<Item> BLUE_REIMU_ITEM = REGISTRY.register("blue_reimu_item", BlueReimuItemItem::new);
+	public static final DeferredItem<Item> KOISHI_ITEM = REGISTRY.register("koishi_item", KoishiItemItem::new);
+	public static final DeferredItem<Item> FLANDRE_ITEM = REGISTRY.register("flandre_item", FlandreItemItem::new);
+	public static final DeferredItem<Item> CREATIVE_TAB_ICON = REGISTRY.register("creative_tab_icon", CreativeTabIconItem::new);
+	public static final DeferredItem<Item> MEILING_ITEM = REGISTRY.register("meiling_item", MeilingItemItem::new);
+	public static final DeferredItem<Item> YOUMU_ITEM = REGISTRY.register("youmu_item", YoumuItemItem::new);
+	public static final DeferredItem<Item> REIMU_ICON = REGISTRY.register("reimu_icon", ReimuIconItem::new);
+	public static final DeferredItem<Item> MARISA_ICON = REGISTRY.register("marisa_icon", MarisaIconItem::new);
+	public static final DeferredItem<Item> CIRNO_ICON = REGISTRY.register("cirno_icon", CirnoIconItem::new);
+	public static final DeferredItem<Item> EIKI_ICON = REGISTRY.register("eiki_icon", EikiIconItem::new);
+	public static final DeferredItem<Item> FLAN_ICON = REGISTRY.register("flan_icon", FlanIconItem::new);
+	public static final DeferredItem<Item> KOISHI_ICON = REGISTRY.register("koishi_icon", KoishiIconItem::new);
+	public static final DeferredItem<Item> MARISA_HAT_ICON = REGISTRY.register("marisa_hat_icon", MarisaHatIconItem::new);
+	public static final DeferredItem<Item> MEILING_ICON = REGISTRY.register("meiling_icon", MeilingIconItem::new);
+	public static final DeferredItem<Item> BOOTLEG_REIMU_ICON = REGISTRY.register("bootleg_reimu_icon", BootlegReimuIconItem::new);
+	public static final DeferredItem<Item> TAN_CIRNO_ICON = REGISTRY.register("tan_cirno_icon", TanCirnoIconItem::new);
+	public static final DeferredItem<Item> YOUMU_ICON = REGISTRY.register("youmu_icon", YoumuIconItem::new);
+	public static final DeferredItem<Item> CHEN_ICON = REGISTRY.register("chen_icon", ChenIconItem::new);
+	public static final DeferredItem<Item> BLUE_REIMU_ICON = REGISTRY.register("blue_reimu_icon", BlueReimuIconItem::new);
+	public static final DeferredItem<Item> FUMO_ROTATE_ICON = REGISTRY.register("fumo_rotate_icon", FumoRotateIconItem::new);
+	public static final DeferredItem<Item> ITEM_SPIN_ICON = REGISTRY.register("item_spin_icon", ItemSpinIconItem::new);
+	public static final DeferredItem<Item> YUYUKO_ITEM = REGISTRY.register("yuyuko_item", YuyukoItemItem::new);
+	public static final DeferredItem<Item> YUYUKO_ICON = REGISTRY.register("yuyuko_icon", YuyukoIconItem::new);
+	public static final DeferredItem<Item> PATCHOULI_ITEM = REGISTRY.register("patchouli_item", PatchouliItemItem::new);
+	public static final DeferredItem<Item> NITORI_ITEM = REGISTRY.register("nitori_item", NitoriItemItem::new);
+	public static final DeferredItem<Item> TEWI_ITEM = REGISTRY.register("tewi_item", TewiItemItem::new);
+	public static final DeferredItem<Item> NAZRIN_ITEM = REGISTRY.register("nazrin_item", NazrinItemItem::new);
+	public static final DeferredItem<Item> SUNNY_MILK_ITEM = REGISTRY.register("sunny_milk_item", SunnyMilkItemItem::new);
+	public static final DeferredItem<Item> ALICE_ITEM = REGISTRY.register("alice_item", AliceItemItem::new);
+	// Start of user code block custom items
+	// End of user code block custom items
 }

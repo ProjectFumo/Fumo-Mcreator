@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="fumo"
+version="16.0.1"
+displayName="Fumo"
+displayURL="https://modrinth.com/mod/fumo"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="KoishiKomeji"
+description="Adds Fumos from Touhou."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.fumo]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.92,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.fumo]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

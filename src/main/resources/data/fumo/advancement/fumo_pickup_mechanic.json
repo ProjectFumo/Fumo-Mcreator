@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "fumo:item_spin_icon"
+    },
+    "title": {
+      "translate": "advancements.fumo_pickup_mechanic.title"
+    },
+    "description": {
+      "translate": "advancements.fumo_pickup_mechanic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fumo_pickup_mechanic_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fumo:fumo_tutorial_base_advancement"
+}

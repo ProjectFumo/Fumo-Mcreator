@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "fumo:reimu_item"
+    },
+    "title": {
+      "translate": "advancements.bootleg_fumo_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.bootleg_fumo_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bootleg_fumo_advancement_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "fumo:fumo_advancement"
+}

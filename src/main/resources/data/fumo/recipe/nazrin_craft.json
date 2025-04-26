@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bread"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:egg"
+    },
+    "d": {
+      "item": "minecraft:cake"
+    },
+    "e": {
+      "item": "minecraft:milk_bucket"
+    },
+    "f": {
+      "item": "minecraft:cookie"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "h": {
+      "item": "minecraft:emerald"
+    },
+    "i": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "fumo:nazrin_item",
+    "count": 1
+  }
+}

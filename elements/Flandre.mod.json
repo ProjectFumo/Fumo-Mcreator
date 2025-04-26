@@ -1,15 +1,16 @@
 {
-  "_fv": 47,
+  "_fv": 77,
   "_type": "livingentity",
   "definition": {
     "mobName": "Flandre Scarlet",
     "mobLabel": "",
     "mobModelName": "ModelFumo",
     "mobModelTexture": "flandre.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.5,
     "modelHeight": 1.0,
     "modelShadowSize": 0.4,
@@ -23,9 +24,11 @@
       "value": -1,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "MISC"
-    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -60,8 +63,10 @@
     "health": 2,
     "xpAmount": 0,
     "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -96,6 +101,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "onRightClickedOn": {
       "name": "FumoDespawn"
     },
@@ -129,6 +135,15 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

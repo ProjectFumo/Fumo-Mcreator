@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:carrot"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "item": "minecraft:golden_carrot"
+    },
+    "d": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "e": {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    "f": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "g": {
+      "item": "minecraft:rabbit"
+    }
+  },
+  "result": {
+    "id": "fumo:tewi_item",
+    "count": 1
+  }
+}

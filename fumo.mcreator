@@ -3,7 +3,6 @@
     {
       "name": "Reimu",
       "type": "livingentity",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu",
@@ -18,7 +17,6 @@
     {
       "name": "Marisa",
       "type": "livingentity",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa",
@@ -33,14 +31,13 @@
     {
       "name": "MarisaHat",
       "type": "livingentity",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_hat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/MarisaHatEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/MarisaHatRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/MarisaHatRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/MarisaHatEntity.java"
         ]
       },
       "path": "~/Marisa Hat"
@@ -48,14 +45,13 @@
     {
       "name": "Eiki",
       "type": "livingentity",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eiki",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/EikiEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/EikiRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/EikiRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/EikiEntity.java"
         ]
       },
       "path": "~/Eiki"
@@ -63,14 +59,13 @@
     {
       "name": "Fumoitem",
       "type": "item",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumoitem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/fumoitem.json",
-          "src/main/java/net/mcreator/fumo/item/FumoitemItem.java"
+          "src/main/java/net/mcreator/fumo/item/FumoitemItem.java",
+          "src/main/resources/assets/fumo/models/item/fumoitem.json"
         ]
       },
       "path": "~/Base/Debug"
@@ -78,7 +73,6 @@
     {
       "name": "MarisaHatItem",
       "type": "item",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_hat_item",
@@ -93,14 +87,13 @@
     {
       "name": "EikiItem",
       "type": "item",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eiki_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/EikiItemItem.java",
-          "src/main/resources/assets/fumo/models/item/eiki_item.json"
+          "src/main/resources/assets/fumo/models/item/eiki_item.json",
+          "src/main/java/net/mcreator/fumo/item/EikiItemItem.java"
         ]
       },
       "path": "~/Eiki"
@@ -108,7 +101,6 @@
     {
       "name": "ReimuItem",
       "type": "item",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_item",
@@ -123,7 +115,6 @@
     {
       "name": "MarisaItem",
       "type": "item",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_item",
@@ -138,7 +129,6 @@
     {
       "name": "FumoDespawn",
       "type": "procedure",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_despawn",
@@ -166,7 +156,6 @@
     {
       "name": "MarisaSpawn",
       "type": "procedure",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_spawn",
@@ -202,7 +191,6 @@
     {
       "name": "ReimuSpawn",
       "type": "procedure",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_spawn",
@@ -238,7 +226,6 @@
     {
       "name": "EikiSpawn",
       "type": "procedure",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eiki_spawn",
@@ -274,7 +261,6 @@
     {
       "name": "MarisaHatSpawn",
       "type": "procedure",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_hat_spawn",
@@ -310,7 +296,6 @@
     {
       "name": "BaseSpawn",
       "type": "procedure",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "base_spawn",
@@ -346,13 +331,12 @@
     {
       "name": "ReimuCraft",
       "type": "recipe",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/reimu_craft.json"
+          "src/main/resources/data/fumo/recipe/reimu_craft.json"
         ]
       },
       "path": "~/Reimu"
@@ -360,14 +344,13 @@
     {
       "name": "Cirno",
       "type": "livingentity",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirno",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/CirnoEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/CirnoRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/CirnoRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/CirnoEntity.java"
         ]
       },
       "path": "~/Cirno"
@@ -375,7 +358,6 @@
     {
       "name": "CirnoItem",
       "type": "item",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirno_item",
@@ -390,7 +372,6 @@
     {
       "name": "CirnoSpawn",
       "type": "procedure",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirno_spawn",
@@ -426,7 +407,6 @@
     {
       "name": "TanCirnoSpawn",
       "type": "procedure",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tan_cirno_spawn",
@@ -462,7 +442,6 @@
     {
       "name": "TanCirno",
       "type": "livingentity",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tan_cirno",
@@ -477,14 +456,13 @@
     {
       "name": "TanCirnoItem",
       "type": "item",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tan_cirno_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/TanCirnoItemItem.java",
-          "src/main/resources/assets/fumo/models/item/tan_cirno_item.json"
+          "src/main/resources/assets/fumo/models/item/tan_cirno_item.json",
+          "src/main/java/net/mcreator/fumo/item/TanCirnoItemItem.java"
         ]
       },
       "path": "~/TanCirno"
@@ -492,7 +470,6 @@
     {
       "name": "DebugFumo",
       "type": "livingentity",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_fumo",
@@ -507,13 +484,12 @@
     {
       "name": "CirnoCraft",
       "type": "recipe",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirno_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/cirno_craft.json"
+          "src/main/resources/data/fumo/recipe/cirno_craft.json"
         ]
       },
       "path": "~/Cirno"
@@ -521,7 +497,6 @@
     {
       "name": "CreateTanCirno",
       "type": "procedure",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "create_tan_cirno",
@@ -545,13 +520,12 @@
     {
       "name": "EikiRecipe",
       "type": "recipe",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eiki_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/eiki_recipe.json"
+          "src/main/resources/data/fumo/recipe/eiki_recipe.json"
         ]
       },
       "path": "~/Eiki"
@@ -559,13 +533,12 @@
     {
       "name": "MarisaHatCrafting",
       "type": "recipe",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_hat_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/marisa_hat_crafting.json"
+          "src/main/resources/data/fumo/recipe/marisa_hat_crafting.json"
         ]
       },
       "path": "~/Marisa Hat"
@@ -573,13 +546,12 @@
     {
       "name": "MarisaNoHatCraft",
       "type": "recipe",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_no_hat_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/marisa_no_hat_craft.json"
+          "src/main/resources/data/fumo/recipe/marisa_no_hat_craft.json"
         ]
       },
       "path": "~/Marisa"
@@ -587,7 +559,6 @@
     {
       "name": "HitHatOffMarisa",
       "type": "procedure",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hit_hat_off_marisa",
@@ -615,7 +586,6 @@
     {
       "name": "ChenItem",
       "type": "item",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chen_item",
@@ -630,7 +600,6 @@
     {
       "name": "Chen",
       "type": "livingentity",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chen",
@@ -645,7 +614,6 @@
     {
       "name": "ChenSpawn",
       "type": "procedure",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chen_spawn",
@@ -681,13 +649,12 @@
     {
       "name": "CraftChen",
       "type": "recipe",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_chen",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/craft_chen.json"
+          "src/main/resources/data/fumo/recipe/craft_chen.json"
         ]
       },
       "path": "~/Chen"
@@ -695,7 +662,6 @@
     {
       "name": "FumoRotate",
       "type": "procedure",
-      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_rotate",
@@ -719,7 +685,6 @@
     {
       "name": "NewReimu",
       "type": "livingentity",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_reimu",
@@ -734,7 +699,6 @@
     {
       "name": "NewReimuItem",
       "type": "item",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_reimu_item",
@@ -749,7 +713,6 @@
     {
       "name": "NewReimuSpawn",
       "type": "procedure",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "new_reimu_spawn",
@@ -785,7 +748,6 @@
     {
       "name": "BlueReimu",
       "type": "livingentity",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_reimu",
@@ -800,7 +762,6 @@
     {
       "name": "BlueReimuItem",
       "type": "item",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_reimu_item",
@@ -815,7 +776,6 @@
     {
       "name": "BlueReimuSpawn",
       "type": "procedure",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_reimu_spawn",
@@ -851,7 +811,6 @@
     {
       "name": "DyeReimu",
       "type": "procedure",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dye_reimu",
@@ -879,14 +838,13 @@
     {
       "name": "Koishi",
       "type": "livingentity",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koishi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/client/renderer/KoishiRenderer.java",
-          "src/main/java/net/mcreator/fumo/entity/KoishiEntity.java"
+          "src/main/java/net/mcreator/fumo/entity/KoishiEntity.java",
+          "src/main/java/net/mcreator/fumo/client/renderer/KoishiRenderer.java"
         ]
       },
       "path": "~/Koishi"
@@ -894,7 +852,6 @@
     {
       "name": "KoishiItem",
       "type": "item",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koishi_item",
@@ -909,7 +866,6 @@
     {
       "name": "KoishiSpawn",
       "type": "procedure",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koishi_spawn",
@@ -945,7 +901,6 @@
     {
       "name": "Flandre",
       "type": "livingentity",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flandre",
@@ -960,14 +915,13 @@
     {
       "name": "FlandreItem",
       "type": "item",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flandre_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/flandre_item.json",
-          "src/main/java/net/mcreator/fumo/item/FlandreItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/FlandreItemItem.java",
+          "src/main/resources/assets/fumo/models/item/flandre_item.json"
         ]
       },
       "path": "~/Flandre"
@@ -975,7 +929,6 @@
     {
       "name": "FlandreSpawn",
       "type": "procedure",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flandre_spawn",
@@ -1011,7 +964,6 @@
     {
       "name": "FumoTab",
       "type": "tab",
-      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_tab",
@@ -1023,7 +975,6 @@
     {
       "name": "CreativeTabIcon",
       "type": "item",
-      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab_icon",
@@ -1038,7 +989,6 @@
     {
       "name": "InstantRotate",
       "type": "procedure",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "instant_rotate",
@@ -1070,13 +1020,12 @@
     {
       "name": "KoishiRecipe",
       "type": "recipe",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koishi_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/koishi_recipe.json"
+          "src/main/resources/data/fumo/recipe/koishi_recipe.json"
         ]
       },
       "path": "~/Koishi"
@@ -1084,13 +1033,12 @@
     {
       "name": "FlandreRecipe",
       "type": "recipe",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flandre_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/flandre_recipe.json"
+          "src/main/resources/data/fumo/recipe/flandre_recipe.json"
         ]
       },
       "path": "~/Flandre"
@@ -1098,13 +1046,12 @@
     {
       "name": "TanCirnoAchievement",
       "type": "achievement",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tan_cirno_achievement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/tan_cirno_achievement.json"
+          "src/main/resources/data/fumo/advancement/tan_cirno_achievement.json"
         ]
       },
       "path": "~/TanCirno"
@@ -1112,13 +1059,12 @@
     {
       "name": "CirnoAdvancement",
       "type": "achievement",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirno_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/cirno_advancement.json"
+          "src/main/resources/data/fumo/advancement/cirno_advancement.json"
         ]
       },
       "path": "~/Cirno"
@@ -1126,13 +1072,12 @@
     {
       "name": "ReimuAdvancement",
       "type": "achievement",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/reimu_advancement.json"
+          "src/main/resources/data/fumo/advancement/reimu_advancement.json"
         ]
       },
       "path": "~/Reimu"
@@ -1140,13 +1085,12 @@
     {
       "name": "MarisaAdvancement",
       "type": "achievement",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/marisa_advancement.json"
+          "src/main/resources/data/fumo/advancement/marisa_advancement.json"
         ]
       },
       "path": "~/Marisa"
@@ -1154,13 +1098,12 @@
     {
       "name": "MarisaHatAdvancement",
       "type": "achievement",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_hat_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/marisa_hat_advancement.json"
+          "src/main/resources/data/fumo/advancement/marisa_hat_advancement.json"
         ]
       },
       "path": "~/Marisa Hat"
@@ -1168,13 +1111,12 @@
     {
       "name": "EikiAdvancement",
       "type": "achievement",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eiki_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/eiki_advancement.json"
+          "src/main/resources/data/fumo/advancement/eiki_advancement.json"
         ]
       },
       "path": "~/Eiki"
@@ -1182,13 +1124,12 @@
     {
       "name": "ChenAdvancement",
       "type": "achievement",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chen_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/chen_advancement.json"
+          "src/main/resources/data/fumo/advancement/chen_advancement.json"
         ]
       },
       "path": "~/Chen"
@@ -1196,13 +1137,12 @@
     {
       "name": "BlueReimuAdvancement",
       "type": "achievement",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_reimu_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/blue_reimu_advancement.json"
+          "src/main/resources/data/fumo/advancement/blue_reimu_advancement.json"
         ]
       },
       "path": "~/BlueReimu"
@@ -1210,13 +1150,12 @@
     {
       "name": "KoishiAdvancement",
       "type": "achievement",
-      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koishi_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/koishi_advancement.json"
+          "src/main/resources/data/fumo/advancement/koishi_advancement.json"
         ]
       },
       "path": "~/Koishi"
@@ -1224,13 +1163,12 @@
     {
       "name": "FlandeAdvancement",
       "type": "achievement",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flande_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/flande_advancement.json"
+          "src/main/resources/data/fumo/advancement/flande_advancement.json"
         ]
       },
       "path": "~/Flandre"
@@ -1238,13 +1176,12 @@
     {
       "name": "FumoAdvancement",
       "type": "achievement",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/fumo_advancement.json"
+          "src/main/resources/data/fumo/advancement/fumo_advancement.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1252,7 +1189,6 @@
     {
       "name": "BootlegReimuTrade",
       "type": "villagertrade",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bootleg_reimu_trade",
@@ -1264,13 +1200,12 @@
     {
       "name": "BootlegFumoAdvancement",
       "type": "achievement",
-      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bootleg_fumo_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/bootleg_fumo_advancement.json"
+          "src/main/resources/data/fumo/advancement/bootleg_fumo_advancement.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1278,13 +1213,12 @@
     {
       "name": "BootLegReimuAdvancement",
       "type": "achievement",
-      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boot_leg_reimu_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/boot_leg_reimu_advancement.json"
+          "src/main/resources/data/fumo/advancement/boot_leg_reimu_advancement.json"
         ]
       },
       "path": "~/BootlegReimu"
@@ -1292,14 +1226,13 @@
     {
       "name": "Meiling",
       "type": "livingentity",
-      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meiling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/MeilingEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/MeilingRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/MeilingRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/MeilingEntity.java"
         ]
       },
       "path": "~/Meiling"
@@ -1307,7 +1240,6 @@
     {
       "name": "MeilingItem",
       "type": "item",
-      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meiling_item",
@@ -1322,7 +1254,6 @@
     {
       "name": "MeilingSpawn",
       "type": "procedure",
-      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meiling_spawn",
@@ -1358,13 +1289,12 @@
     {
       "name": "MeilingAdvancement",
       "type": "achievement",
-      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meiling_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/meiling_advancement.json"
+          "src/main/resources/data/fumo/advancement/meiling_advancement.json"
         ]
       },
       "path": "~/Meiling"
@@ -1372,13 +1302,12 @@
     {
       "name": "MeilingCraft",
       "type": "recipe",
-      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meiling_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/meiling_craft.json"
+          "src/main/resources/data/fumo/recipe/meiling_craft.json"
         ]
       },
       "path": "~/Meiling"
@@ -1386,14 +1315,13 @@
     {
       "name": "Youmu",
       "type": "livingentity",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youmu",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/YoumuEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/YoumuRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/YoumuRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/YoumuEntity.java"
         ]
       },
       "path": "~/Youmu"
@@ -1401,7 +1329,6 @@
     {
       "name": "YoumuItem",
       "type": "item",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youmu_item",
@@ -1416,7 +1343,6 @@
     {
       "name": "YoumuSpawn",
       "type": "procedure",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youmu_spawn",
@@ -1452,13 +1378,12 @@
     {
       "name": "YoumuAdvancement",
       "type": "achievement",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youmu_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/youmu_advancement.json"
+          "src/main/resources/data/fumo/advancement/youmu_advancement.json"
         ]
       },
       "path": "~/Youmu"
@@ -1466,13 +1391,12 @@
     {
       "name": "YoumuCraft",
       "type": "recipe",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youmu_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/youmu_craft.json"
+          "src/main/resources/data/fumo/recipe/youmu_craft.json"
         ]
       },
       "path": "~/Youmu"
@@ -1480,13 +1404,12 @@
     {
       "name": "TutorialAdvancementPickup",
       "type": "achievement",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tutorial_advancement_pickup",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/tutorial_advancement_pickup.json"
+          "src/main/resources/data/fumo/advancement/tutorial_advancement_pickup.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1494,13 +1417,12 @@
     {
       "name": "RotateFumoAdvancement",
       "type": "achievement",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rotate_fumo_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/rotate_fumo_advancement.json"
+          "src/main/resources/data/fumo/advancement/rotate_fumo_advancement.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1508,13 +1430,12 @@
     {
       "name": "FumoFeedAdvancement",
       "type": "achievement",
-      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_feed_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/fumo_feed_advancement.json"
+          "src/main/resources/data/fumo/advancement/fumo_feed_advancement.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1522,13 +1443,12 @@
     {
       "name": "FumoTutorialBaseAdvancement",
       "type": "achievement",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_tutorial_base_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/fumo_tutorial_base_advancement.json"
+          "src/main/resources/data/fumo/advancement/fumo_tutorial_base_advancement.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1536,7 +1456,6 @@
     {
       "name": "ReimuIcon",
       "type": "item",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reimu_icon",
@@ -1551,14 +1470,13 @@
     {
       "name": "MarisaIcon",
       "type": "item",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/marisa_icon.json",
-          "src/main/java/net/mcreator/fumo/item/MarisaIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/MarisaIconItem.java",
+          "src/main/resources/assets/fumo/models/item/marisa_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1566,14 +1484,13 @@
     {
       "name": "CirnoIcon",
       "type": "item",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cirno_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/CirnoIconItem.java",
-          "src/main/resources/assets/fumo/models/item/cirno_icon.json"
+          "src/main/resources/assets/fumo/models/item/cirno_icon.json",
+          "src/main/java/net/mcreator/fumo/item/CirnoIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1581,14 +1498,13 @@
     {
       "name": "EikiIcon",
       "type": "item",
-      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eiki_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/EikiIconItem.java",
-          "src/main/resources/assets/fumo/models/item/eiki_icon.json"
+          "src/main/resources/assets/fumo/models/item/eiki_icon.json",
+          "src/main/java/net/mcreator/fumo/item/EikiIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1596,7 +1512,6 @@
     {
       "name": "FlanIcon",
       "type": "item",
-      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flan_icon",
@@ -1611,14 +1526,13 @@
     {
       "name": "KoishiIcon",
       "type": "item",
-      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koishi_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/koishi_icon.json",
-          "src/main/java/net/mcreator/fumo/item/KoishiIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/KoishiIconItem.java",
+          "src/main/resources/assets/fumo/models/item/koishi_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1626,14 +1540,13 @@
     {
       "name": "MarisaHatIcon",
       "type": "item",
-      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marisa_hat_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/MarisaHatIconItem.java",
-          "src/main/resources/assets/fumo/models/item/marisa_hat_icon.json"
+          "src/main/resources/assets/fumo/models/item/marisa_hat_icon.json",
+          "src/main/java/net/mcreator/fumo/item/MarisaHatIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1641,14 +1554,13 @@
     {
       "name": "MeilingIcon",
       "type": "item",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meiling_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/meiling_icon.json",
-          "src/main/java/net/mcreator/fumo/item/MeilingIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/MeilingIconItem.java",
+          "src/main/resources/assets/fumo/models/item/meiling_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1656,14 +1568,13 @@
     {
       "name": "BootlegReimuIcon",
       "type": "item",
-      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bootleg_reimu_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/bootleg_reimu_icon.json",
-          "src/main/java/net/mcreator/fumo/item/BootlegReimuIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/BootlegReimuIconItem.java",
+          "src/main/resources/assets/fumo/models/item/bootleg_reimu_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1671,14 +1582,13 @@
     {
       "name": "TanCirnoIcon",
       "type": "item",
-      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tan_cirno_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/TanCirnoIconItem.java",
-          "src/main/resources/assets/fumo/models/item/tan_cirno_icon.json"
+          "src/main/resources/assets/fumo/models/item/tan_cirno_icon.json",
+          "src/main/java/net/mcreator/fumo/item/TanCirnoIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1686,14 +1596,13 @@
     {
       "name": "YoumuIcon",
       "type": "item",
-      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "youmu_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/YoumuIconItem.java",
-          "src/main/resources/assets/fumo/models/item/youmu_icon.json"
+          "src/main/resources/assets/fumo/models/item/youmu_icon.json",
+          "src/main/java/net/mcreator/fumo/item/YoumuIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1701,7 +1610,6 @@
     {
       "name": "ChenIcon",
       "type": "item",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chen_icon",
@@ -1716,14 +1624,13 @@
     {
       "name": "BlueReimuIcon",
       "type": "item",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_reimu_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/BlueReimuIconItem.java",
-          "src/main/resources/assets/fumo/models/item/blue_reimu_icon.json"
+          "src/main/resources/assets/fumo/models/item/blue_reimu_icon.json",
+          "src/main/java/net/mcreator/fumo/item/BlueReimuIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1731,7 +1638,6 @@
     {
       "name": "FumoRotateIcon",
       "type": "item",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_rotate_icon",
@@ -1746,14 +1652,13 @@
     {
       "name": "ItemSpinIcon",
       "type": "item",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_spin_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/item_spin_icon.json",
-          "src/main/java/net/mcreator/fumo/item/ItemSpinIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/ItemSpinIconItem.java",
+          "src/main/resources/assets/fumo/models/item/item_spin_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1761,7 +1666,6 @@
     {
       "name": "Yuyuko",
       "type": "livingentity",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yuyuko",
@@ -1776,7 +1680,6 @@
     {
       "name": "YuyukoItem",
       "type": "item",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yuyuko_item",
@@ -1791,7 +1694,6 @@
     {
       "name": "YuyukoSpawn",
       "type": "procedure",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yuyuko_spawn",
@@ -1827,13 +1729,12 @@
     {
       "name": "YuyukoAdvancement",
       "type": "achievement",
-      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yuyuko_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/yuyuko_advancement.json"
+          "src/main/resources/data/fumo/advancement/yuyuko_advancement.json"
         ]
       },
       "path": "~/Yuyuko"
@@ -1841,13 +1742,12 @@
     {
       "name": "YuyukoCraft",
       "type": "recipe",
-      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yuyuko_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/yuyuko_craft.json"
+          "src/main/resources/data/fumo/recipe/yuyuko_craft.json"
         ]
       },
       "path": "~/Yuyuko"
@@ -1855,14 +1755,13 @@
     {
       "name": "YuyukoIcon",
       "type": "item",
-      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yuyuko_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/yuyuko_icon.json",
-          "src/main/java/net/mcreator/fumo/item/YuyukoIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/YuyukoIconItem.java",
+          "src/main/resources/assets/fumo/models/item/yuyuko_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1870,7 +1769,6 @@
     {
       "name": "Patchouli",
       "type": "livingentity",
-      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "patchouli",
@@ -1885,14 +1783,13 @@
     {
       "name": "PatchouliItem",
       "type": "item",
-      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "patchouli_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/PatchouliItemItem.java",
-          "src/main/resources/assets/fumo/models/item/patchouli_item.json"
+          "src/main/resources/assets/fumo/models/item/patchouli_item.json",
+          "src/main/java/net/mcreator/fumo/item/PatchouliItemItem.java"
         ]
       },
       "path": "~/Patchouli"
@@ -1900,7 +1797,6 @@
     {
       "name": "PatchouliSpawn",
       "type": "procedure",
-      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "patchouli_spawn",
@@ -1936,13 +1832,12 @@
     {
       "name": "PatchouliAdvancement",
       "type": "achievement",
-      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "patchouli_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/patchouli_advancement.json"
+          "src/main/resources/data/fumo/advancement/patchouli_advancement.json"
         ]
       },
       "path": "~/Patchouli"
@@ -1950,13 +1845,12 @@
     {
       "name": "PatchouliCraft",
       "type": "recipe",
-      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "patchouli_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/patchouli_craft.json"
+          "src/main/resources/data/fumo/recipe/patchouli_craft.json"
         ]
       },
       "path": "~/Patchouli"
@@ -1964,13 +1858,12 @@
     {
       "name": "FumoPickupMechanic",
       "type": "achievement",
-      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fumo_pickup_mechanic",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/fumo_pickup_mechanic.json"
+          "src/main/resources/data/fumo/advancement/fumo_pickup_mechanic.json"
         ]
       },
       "path": "~/Base/BaseAdvancements"
@@ -1978,14 +1871,13 @@
     {
       "name": "Nitori",
       "type": "livingentity",
-      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitori",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/entity/NitoriEntity.java",
-          "src/main/java/net/mcreator/fumo/client/renderer/NitoriRenderer.java"
+          "src/main/java/net/mcreator/fumo/client/renderer/NitoriRenderer.java",
+          "src/main/java/net/mcreator/fumo/entity/NitoriEntity.java"
         ]
       },
       "path": "~/Nitori"
@@ -1993,7 +1885,6 @@
     {
       "name": "NitoriItem",
       "type": "item",
-      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitori_item",
@@ -2008,7 +1899,6 @@
     {
       "name": "NitoriSpawn",
       "type": "procedure",
-      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitori_spawn",
@@ -2044,13 +1934,12 @@
     {
       "name": "NitoriAdvancement",
       "type": "achievement",
-      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitori_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/nitori_advancement.json"
+          "src/main/resources/data/fumo/advancement/nitori_advancement.json"
         ]
       },
       "path": "~/Nitori"
@@ -2058,13 +1947,12 @@
     {
       "name": "NitoriCraft",
       "type": "recipe",
-      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nitori_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/nitori_craft.json"
+          "src/main/resources/data/fumo/recipe/nitori_craft.json"
         ]
       },
       "path": "~/Nitori"
@@ -2072,7 +1960,6 @@
     {
       "name": "Tewi",
       "type": "livingentity",
-      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tewi",
@@ -2087,14 +1974,13 @@
     {
       "name": "TewiItem",
       "type": "item",
-      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tewi_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/tewi_item.json",
-          "src/main/java/net/mcreator/fumo/item/TewiItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/TewiItemItem.java",
+          "src/main/resources/assets/fumo/models/item/tewi_item.json"
         ]
       },
       "path": "~/Tewi"
@@ -2102,7 +1988,6 @@
     {
       "name": "TewiSpawn",
       "type": "procedure",
-      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tewi_spawn",
@@ -2138,13 +2023,12 @@
     {
       "name": "TewiAdvancement",
       "type": "achievement",
-      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tewi_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/tewi_advancement.json"
+          "src/main/resources/data/fumo/advancement/tewi_advancement.json"
         ]
       },
       "path": "~/Tewi"
@@ -2152,13 +2036,12 @@
     {
       "name": "TewiCraft",
       "type": "recipe",
-      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tewi_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/tewi_craft.json"
+          "src/main/resources/data/fumo/recipe/tewi_craft.json"
         ]
       },
       "path": "~/Tewi"
@@ -2166,7 +2049,6 @@
     {
       "name": "Nazrin",
       "type": "livingentity",
-      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nazrin",
@@ -2181,7 +2063,6 @@
     {
       "name": "NazrinItem",
       "type": "item",
-      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nazrin_item",
@@ -2196,7 +2077,6 @@
     {
       "name": "NazrinSpawn",
       "type": "procedure",
-      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nazrin_spawn",
@@ -2232,13 +2112,12 @@
     {
       "name": "NazrinAdvancement",
       "type": "achievement",
-      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nazrin_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/nazrin_advancement.json"
+          "src/main/resources/data/fumo/advancement/nazrin_advancement.json"
         ]
       },
       "path": "~/Nazrin"
@@ -2246,13 +2125,12 @@
     {
       "name": "NazrinCraft",
       "type": "recipe",
-      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nazrin_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/nazrin_craft.json"
+          "src/main/resources/data/fumo/recipe/nazrin_craft.json"
         ]
       },
       "path": "~/Nazrin"
@@ -2260,7 +2138,6 @@
     {
       "name": "CustomKillEntityNoXP",
       "type": "procedure",
-      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custom_kill_entity_no_xp",
@@ -2284,7 +2161,6 @@
     {
       "name": "SunnyMilk",
       "type": "livingentity",
-      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunny_milk",
@@ -2299,14 +2175,13 @@
     {
       "name": "SunnyMilkItem",
       "type": "item",
-      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunny_milk_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/SunnyMilkItemItem.java",
-          "src/main/resources/assets/fumo/models/item/sunny_milk_item.json"
+          "src/main/resources/assets/fumo/models/item/sunny_milk_item.json",
+          "src/main/java/net/mcreator/fumo/item/SunnyMilkItemItem.java"
         ]
       },
       "path": "~/SunnyMilk"
@@ -2314,7 +2189,6 @@
     {
       "name": "SunnyMilkSpawn",
       "type": "procedure",
-      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunny_milk_spawn",
@@ -2350,13 +2224,12 @@
     {
       "name": "SunnyMilkAdvancement",
       "type": "achievement",
-      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunny_milk_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/sunny_milk_advancement.json"
+          "src/main/resources/data/fumo/advancement/sunny_milk_advancement.json"
         ]
       },
       "path": "~/SunnyMilk"
@@ -2364,13 +2237,12 @@
     {
       "name": "SunnyMilkCraft",
       "type": "recipe",
-      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunny_milk_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/sunny_milk_craft.json"
+          "src/main/resources/data/fumo/recipe/sunny_milk_craft.json"
         ]
       },
       "path": "~/SunnyMilk"
@@ -2378,7 +2250,6 @@
     {
       "name": "AliceItem",
       "type": "item",
-      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alice_item",
@@ -2393,7 +2264,6 @@
     {
       "name": "Alice",
       "type": "livingentity",
-      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alice",
@@ -2408,7 +2278,6 @@
     {
       "name": "AliceSpawn",
       "type": "procedure",
-      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alice_spawn",
@@ -2444,13 +2313,12 @@
     {
       "name": "AliceAdvancement",
       "type": "achievement",
-      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alice_advancement",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/advancements/alice_advancement.json"
+          "src/main/resources/data/fumo/advancement/alice_advancement.json"
         ]
       },
       "path": "~/Alice"
@@ -2458,13 +2326,12 @@
     {
       "name": "AliceCraft",
       "type": "recipe",
-      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alice_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/fumo/recipes/alice_craft.json"
+          "src/main/resources/data/fumo/recipe/alice_craft.json"
         ]
       },
       "path": "~/Alice"
@@ -2481,6 +2348,8 @@
       "subtitle": "Fumo"
     }
   ],
+  "tag_elements": {},
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "advancements.tan_cirno_achievement.descr": "Strike Cirno with Lightning",
@@ -2705,22 +2574,20 @@
   "workspaceSettings": {
     "modid": "fumo",
     "modName": "Fumo",
-    "version": "15.0.0",
+    "version": "16.0.1",
     "description": "Adds Fumos from Touhou.",
-    "author": "VegaKey",
+    "author": "KoishiKomeji",
     "websiteURL": "https://modrinth.com/mod/fumo",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "eiki",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.fumo",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.fumo"
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202500113416
 }

@@ -4,8 +4,8 @@
  */
 package net.mcreator.fumo.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +16,7 @@ import net.mcreator.fumo.FumoMod;
 
 public class FumoModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FumoMod.MODID);
-	public static final RegistryObject<CreativeModeTab> FUMO_TAB = REGISTRY.register("fumo_tab",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FUMO_TAB = REGISTRY.register("fumo_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.fumo.fumo_tab")).icon(() -> new ItemStack(FumoModItems.CREATIVE_TAB_ICON.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(FumoModItems.FUMOITEM.get());
 				tabData.accept(FumoModItems.MARISA_HAT_ITEM.get());

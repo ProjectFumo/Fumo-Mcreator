@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelMarisaHat;
 
 public class MarisaHatRenderer extends MobRenderer<MarisaHatEntity, ModelMarisaHat<MarisaHatEntity>> {
 	public MarisaHatRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelMarisaHat(context.bakeLayer(ModelMarisaHat.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelMarisaHat<MarisaHatEntity>(context.bakeLayer(ModelMarisaHat.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(MarisaHatEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/marisahat.png");
+		return ResourceLocation.parse("fumo:textures/entities/marisahat.png");
 	}
 }

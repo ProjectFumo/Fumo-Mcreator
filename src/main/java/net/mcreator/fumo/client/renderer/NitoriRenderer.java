@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class NitoriRenderer extends MobRenderer<NitoriEntity, ModelFumo<NitoriEntity>> {
 	public NitoriRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<NitoriEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(NitoriEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/nitori.png");
+		return ResourceLocation.parse("fumo:textures/entities/nitori.png");
 	}
 }

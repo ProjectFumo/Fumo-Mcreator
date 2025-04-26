@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class NewReimuRenderer extends MobRenderer<NewReimuEntity, ModelFumo<NewReimuEntity>> {
 	public NewReimuRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<NewReimuEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(NewReimuEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/newreimu.png");
+		return ResourceLocation.parse("fumo:textures/entities/newreimu.png");
 	}
 }

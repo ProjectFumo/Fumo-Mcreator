@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sunflower"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:blue_wool"
+    },
+    "d": {
+      "item": "minecraft:red_mushroom"
+    },
+    "e": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "fumo:alice_item",
+    "count": 1
+  }
+}

@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class DebugFumoRenderer extends MobRenderer<DebugFumoEntity, ModelFumo<DebugFumoEntity>> {
 	public DebugFumoRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<DebugFumoEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(DebugFumoEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/debugfumo.png");
+		return ResourceLocation.parse("fumo:textures/entities/debugfumo.png");
 	}
 }

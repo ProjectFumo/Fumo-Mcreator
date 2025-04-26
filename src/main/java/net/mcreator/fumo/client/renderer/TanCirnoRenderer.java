@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class TanCirnoRenderer extends MobRenderer<TanCirnoEntity, ModelFumo<TanCirnoEntity>> {
 	public TanCirnoRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<TanCirnoEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(TanCirnoEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/tancirno.png");
+		return ResourceLocation.parse("fumo:textures/entities/tancirno.png");
 	}
 }

@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class KoishiRenderer extends MobRenderer<KoishiEntity, ModelFumo<KoishiEntity>> {
 	public KoishiRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<KoishiEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(KoishiEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/koishi.png");
+		return ResourceLocation.parse("fumo:textures/entities/koishi.png");
 	}
 }

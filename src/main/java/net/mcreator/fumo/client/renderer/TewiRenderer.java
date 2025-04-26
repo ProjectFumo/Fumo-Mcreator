@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class TewiRenderer extends MobRenderer<TewiEntity, ModelFumo<TewiEntity>> {
 	public TewiRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<TewiEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(TewiEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/tewi.png");
+		return ResourceLocation.parse("fumo:textures/entities/tewi.png");
 	}
 }

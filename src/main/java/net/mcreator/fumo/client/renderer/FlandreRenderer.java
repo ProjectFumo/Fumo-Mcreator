@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class FlandreRenderer extends MobRenderer<FlandreEntity, ModelFumo<FlandreEntity>> {
 	public FlandreRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<FlandreEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(FlandreEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/flandre.png");
+		return ResourceLocation.parse("fumo:textures/entities/flandre.png");
 	}
 }

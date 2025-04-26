@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelEiki;
 
 public class EikiRenderer extends MobRenderer<EikiEntity, ModelEiki<EikiEntity>> {
 	public EikiRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelEiki(context.bakeLayer(ModelEiki.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelEiki<EikiEntity>(context.bakeLayer(ModelEiki.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(EikiEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/eiki.png");
+		return ResourceLocation.parse("fumo:textures/entities/eiki.png");
 	}
 }

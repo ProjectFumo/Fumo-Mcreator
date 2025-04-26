@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_eye"
+    },
+    "b": {
+      "item": "minecraft:redstone_block"
+    },
+    "c": {
+      "item": "minecraft:blaze_powder"
+    },
+    "d": {
+      "item": "minecraft:cake"
+    },
+    "e": {
+      "item": "minecraft:sugar"
+    },
+    "f": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "id": "fumo:flandre_item",
+    "count": 1
+  }
+}

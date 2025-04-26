@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class CirnoRenderer extends MobRenderer<CirnoEntity, ModelFumo<CirnoEntity>> {
 	public CirnoRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<CirnoEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(CirnoEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/cirno.png");
+		return ResourceLocation.parse("fumo:textures/entities/cirno.png");
 	}
 }

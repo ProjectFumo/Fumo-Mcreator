@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "  d"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_wart"
+    },
+    "b": {
+      "item": "minecraft:writable_book"
+    },
+    "c": {
+      "item": "minecraft:ghast_tear"
+    },
+    "d": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "id": "fumo:patchouli_item",
+    "count": 1
+  }
+}

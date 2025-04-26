@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "fumo:tan_cirno_icon"
+    },
+    "title": {
+      "translate": "advancements.tan_cirno_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.tan_cirno_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tan_cirno_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fumo:cirno_advancement"
+}

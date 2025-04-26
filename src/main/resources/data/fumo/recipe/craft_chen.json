@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:green_wool"
+    },
+    "c": {
+      "item": "minecraft:orange_wool"
+    },
+    "d": {
+      "item": "minecraft:tropical_fish"
+    },
+    "e": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "fumo:chen_item",
+    "count": 1
+  }
+}

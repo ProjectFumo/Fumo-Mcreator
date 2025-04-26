@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "fumo:flan_icon"
+    },
+    "title": {
+      "translate": "advancements.flande_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.flande_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "flande_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:flandre_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fumo:fumo_advancement"
+}

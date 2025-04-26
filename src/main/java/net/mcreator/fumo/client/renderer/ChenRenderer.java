@@ -10,11 +10,11 @@ import net.mcreator.fumo.client.model.ModelFumo;
 
 public class ChenRenderer extends MobRenderer<ChenEntity, ModelFumo<ChenEntity>> {
 	public ChenRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelFumo<ChenEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(ChenEntity entity) {
-		return new ResourceLocation("fumo:textures/entities/chen.png");
+		return ResourceLocation.parse("fumo:textures/entities/chen.png");
 	}
 }
