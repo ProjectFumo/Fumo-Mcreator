@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
         "value": "Blocks.WOOL#14"
       },
       {
-        "value": "Blocks.STONEBRICK#0"
-      },
-      {
-        "value": "Blocks.WOOL#14"
-      },
-      {
-        "value": "Items.GOLDEN_APPLE#1"
-      },
-      {
-        "value": "Blocks.OBSIDIAN"
-      },
-      {
-        "value": "Items.GOLDEN_APPLE#1"
-      },
-      {
-        "value": "Items.PAPER"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
-      },
-      {
-        "value": "Items.PAPER"
+        "value": "Items.GOLD_NUGGET"
       }
     ],
     "recipeReturnStack": {
