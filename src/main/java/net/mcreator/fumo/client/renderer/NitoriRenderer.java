@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.fumo.entity.NitoriEntity;
-import net.mcreator.fumo.client.model.ModelFumo;
+import net.mcreator.fumo.client.model.ModelNitori;
 
-public class NitoriRenderer extends MobRenderer<NitoriEntity, ModelFumo<NitoriEntity>> {
+public class NitoriRenderer extends MobRenderer<NitoriEntity, ModelNitori<NitoriEntity>> {
 	public NitoriRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFumo<NitoriEntity>(context.bakeLayer(ModelFumo.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelNitori<NitoriEntity>(context.bakeLayer(ModelNitori.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override

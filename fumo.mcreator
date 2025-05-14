@@ -92,8 +92,8 @@
       "registry_name": "eiki_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/eiki_item.json",
-          "src/main/java/net/mcreator/fumo/item/EikiItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/EikiItemItem.java",
+          "src/main/resources/assets/fumo/models/item/eiki_item.json"
         ]
       },
       "path": "~/Eiki"
@@ -461,8 +461,8 @@
       "registry_name": "tan_cirno_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/tan_cirno_item.json",
-          "src/main/java/net/mcreator/fumo/item/TanCirnoItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/TanCirnoItemItem.java",
+          "src/main/resources/assets/fumo/models/item/tan_cirno_item.json"
         ]
       },
       "path": "~/TanCirno"
@@ -591,8 +591,8 @@
       "registry_name": "chen_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/ChenItemItem.java",
-          "src/main/resources/assets/fumo/models/item/chen_item.json"
+          "src/main/resources/assets/fumo/models/item/chen_item.json",
+          "src/main/java/net/mcreator/fumo/item/ChenItemItem.java"
         ]
       },
       "path": "~/Chen"
@@ -708,8 +708,8 @@
       "registry_name": "new_reimu_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/new_reimu_item.json",
-          "src/main/java/net/mcreator/fumo/item/NewReimuItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/NewReimuItemItem.java",
+          "src/main/resources/assets/fumo/models/item/new_reimu_item.json"
         ]
       },
       "path": "~/Reimu"
@@ -861,8 +861,8 @@
       "registry_name": "koishi_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/KoishiItemItem.java",
-          "src/main/resources/assets/fumo/models/item/koishi_item.json"
+          "src/main/resources/assets/fumo/models/item/koishi_item.json",
+          "src/main/java/net/mcreator/fumo/item/KoishiItemItem.java"
         ]
       },
       "path": "~/Koishi"
@@ -984,8 +984,8 @@
       "registry_name": "creative_tab_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/creative_tab_icon.json",
-          "src/main/java/net/mcreator/fumo/item/CreativeTabIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/CreativeTabIconItem.java",
+          "src/main/resources/assets/fumo/models/item/creative_tab_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1249,8 +1249,8 @@
       "registry_name": "meiling_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/MeilingItemItem.java",
-          "src/main/resources/assets/fumo/models/item/meiling_item.json"
+          "src/main/resources/assets/fumo/models/item/meiling_item.json",
+          "src/main/java/net/mcreator/fumo/item/MeilingItemItem.java"
         ]
       },
       "path": "~/Meiling"
@@ -1338,8 +1338,8 @@
       "registry_name": "youmu_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/YoumuItemItem.java",
-          "src/main/resources/assets/fumo/models/item/youmu_item.json"
+          "src/main/resources/assets/fumo/models/item/youmu_item.json",
+          "src/main/java/net/mcreator/fumo/item/YoumuItemItem.java"
         ]
       },
       "path": "~/Youmu"
@@ -1563,8 +1563,8 @@
       "registry_name": "meiling_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/MeilingIconItem.java",
-          "src/main/resources/assets/fumo/models/item/meiling_icon.json"
+          "src/main/resources/assets/fumo/models/item/meiling_icon.json",
+          "src/main/java/net/mcreator/fumo/item/MeilingIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1605,8 +1605,8 @@
       "registry_name": "youmu_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/youmu_icon.json",
-          "src/main/java/net/mcreator/fumo/item/YoumuIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/YoumuIconItem.java",
+          "src/main/resources/assets/fumo/models/item/youmu_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1619,8 +1619,8 @@
       "registry_name": "chen_icon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/chen_icon.json",
-          "src/main/java/net/mcreator/fumo/item/ChenIconItem.java"
+          "src/main/java/net/mcreator/fumo/item/ChenIconItem.java",
+          "src/main/resources/assets/fumo/models/item/chen_icon.json"
         ]
       },
       "path": "~/Base/Icons"
@@ -1647,8 +1647,8 @@
       "registry_name": "fumo_rotate_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/FumoRotateIconItem.java",
-          "src/main/resources/assets/fumo/models/item/fumo_rotate_icon.json"
+          "src/main/resources/assets/fumo/models/item/fumo_rotate_icon.json",
+          "src/main/java/net/mcreator/fumo/item/FumoRotateIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1689,8 +1689,8 @@
       "registry_name": "yuyuko_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/yuyuko_item.json",
-          "src/main/java/net/mcreator/fumo/item/YuyukoItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/YuyukoItemItem.java",
+          "src/main/resources/assets/fumo/models/item/yuyuko_item.json"
         ]
       },
       "path": "~/Yuyuko"
@@ -1764,8 +1764,8 @@
       "registry_name": "yuyuko_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/YuyukoIconItem.java",
-          "src/main/resources/assets/fumo/models/item/yuyuko_icon.json"
+          "src/main/resources/assets/fumo/models/item/yuyuko_icon.json",
+          "src/main/java/net/mcreator/fumo/item/YuyukoIconItem.java"
         ]
       },
       "path": "~/Base/Icons"
@@ -1792,8 +1792,8 @@
       "registry_name": "patchouli_item",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fumo/models/item/patchouli_item.json",
-          "src/main/java/net/mcreator/fumo/item/PatchouliItemItem.java"
+          "src/main/java/net/mcreator/fumo/item/PatchouliItemItem.java",
+          "src/main/resources/assets/fumo/models/item/patchouli_item.json"
         ]
       },
       "path": "~/Patchouli"
@@ -1894,8 +1894,8 @@
       "registry_name": "nitori_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/NitoriItemItem.java",
-          "src/main/resources/assets/fumo/models/item/nitori_item.json"
+          "src/main/resources/assets/fumo/models/item/nitori_item.json",
+          "src/main/java/net/mcreator/fumo/item/NitoriItemItem.java"
         ]
       },
       "path": "~/Nitori"
@@ -1983,8 +1983,8 @@
       "registry_name": "tewi_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fumo/item/TewiItemItem.java",
-          "src/main/resources/assets/fumo/models/item/tewi_item.json"
+          "src/main/resources/assets/fumo/models/item/tewi_item.json",
+          "src/main/java/net/mcreator/fumo/item/TewiItemItem.java"
         ]
       },
       "path": "~/Tewi"
@@ -2360,8 +2360,8 @@
       "entity.fumo.cirno": "Cirno",
       "item.fumo.koishi_icon": "Icon",
       "entity.fumo.alice": "Alice",
-      "entity.fumo.debug_fumo": "Debug Fumo",
       "advancements.youmu_advancement.title": "Youmu",
+      "entity.fumo.debug_fumo": "Debug Fumo",
       "advancements.blue_reimu_advancement.descr": "Obtain Blue Reimu with blue dye",
       "advancements.meiling_advancement.title": "Meiling",
       "item.fumo.nazrin_item": "Nazrin",
@@ -2370,8 +2370,8 @@
       "item.fumo.item_spin_icon": "Icon",
       "item.fumo.sunny_milk_item": "Sunny Milk",
       "advancements.boot_leg_reimu_advancement.descr": "Obtain Reimu bootleg",
-      "advancements.chen_advancement.descr": "Obtain Chen",
       "item.fumo.chen_icon": "Icon",
+      "advancements.chen_advancement.descr": "Obtain Chen",
       "advancements.sunny_milk_advancement.descr": "Obtain Sunny Milk",
       "advancements.flande_advancement.descr": "Obtain Flandre",
       "subtitles.fumo_scream": "Fumo",
@@ -2379,14 +2379,14 @@
       "advancements.nitori_advancement.descr": "Obtain Nitori",
       "item.fumo.koishi_item": "Koishi Komeiji",
       "advancements.cirno_advancement.descr": "Obtain Cirno",
-      "item.fumo.new_reimu_item": "Reimu Hakurei",
       "advancements.yuyuko_advancement.title": "Yuyuko",
+      "item.fumo.new_reimu_item": "Reimu Hakurei",
       "advancements.eiki_advancement.title": "Eiki",
-      "item.fumo.tewi_item": "Tewi",
-      "advancements.yuyuko_advancement.descr": "Obtain Yuyuko",
       "advancements.bootleg_fumo_advancement.descr": "Purchase Fumo\u0027s from [Wandering Traders]",
-      "entity.fumo.sunny_milk": "Sunny Milk",
+      "advancements.yuyuko_advancement.descr": "Obtain Yuyuko",
+      "item.fumo.tewi_item": "Tewi",
       "item.fumo.patchouli_item": "Patchouli",
+      "entity.fumo.sunny_milk": "Sunny Milk",
       "advancements.rotate_fumo_advancement.descr": "Rotate a Fumo with a carrot on a stick!",
       "advancements.nazrin_advancement.title": "Nazrin",
       "item.fumo.reimu_icon": "Icon",
