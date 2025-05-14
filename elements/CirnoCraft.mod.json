@@ -15,7 +15,7 @@
         "value": "Blocks.ICE"
       },
       {
-        "value": "Blocks.ICE"
+        "value": "Blocks.WOOL#3"
       },
       {
         "value": "Blocks.ICE"
@@ -30,13 +30,13 @@
         "value": "Blocks.ICE"
       },
       {
-        "value": "Items.SNOWBALL"
+        "value": "Blocks.ICE"
       },
       {
-        "value": "Blocks.WOOL#3"
+        "value": "Blocks.WOOL#11"
       },
       {
-        "value": "Items.SNOWBALL"
+        "value": "Blocks.ICE"
       }
     ],
     "recipeReturnStack": {
