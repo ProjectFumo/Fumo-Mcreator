@@ -8,22 +8,22 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:red_dye"
     },
     "b": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:yellow_wool"
     },
     "c": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:white_wool"
     },
     "d": {
       "item": "minecraft:cake"
     },
     "e": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:yellow_dye"
     },
     "f": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:red_wool"
     }
   },
   "result": {

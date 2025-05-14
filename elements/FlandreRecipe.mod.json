@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.ENDER_EYE"
+        "value": "Items.DYE#1"
       },
       {
-        "value": "Blocks.REDSTONE_BLOCK"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": "Items.ENDER_EYE"
+        "value": "Items.DYE#1"
       },
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "Blocks.WOOL#0"
       },
       {
         "value": "Items.CAKE"
       },
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": "Items.SUGAR"
+        "value": "Items.DYE#11"
       },
       {
-        "value": "Items.FIRE_CHARGE"
+        "value": "Blocks.WOOL#14"
       },
       {
-        "value": "Items.SUGAR"
+        "value": "Items.DYE#11"
       }
     ],
     "recipeReturnStack": {
