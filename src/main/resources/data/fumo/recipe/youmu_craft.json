@@ -4,26 +4,23 @@
   "pattern": [
     "aba",
     "cdc",
-    "efe"
+    "aea"
   ],
   "key": {
     "a": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:cyan_wool"
     },
     "b": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:ghast_tear"
     },
     "c": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:white_wool"
     },
     "d": {
-      "item": "minecraft:air"
+      "item": "minecraft:nether_star"
     },
     "e": {
-      "item": "minecraft:soul_lantern"
-    },
-    "f": {
-      "item": "minecraft:nether_star"
+      "item": "minecraft:iron_sword"
     }
   },
   "result": {

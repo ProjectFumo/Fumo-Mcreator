@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DRIED_KELP_BLOCK"
+        "value": "Blocks.WOOL#9"
       },
       {
-        "value": "Items.SALMON_BUCKET"
+        "value": "Items.GHAST_TEAR"
       },
       {
-        "value": "Blocks.DRIED_KELP_BLOCK"
+        "value": "Blocks.WOOL#9"
       },
       {
-        "value": "Blocks.SEAGRASS"
-      },
-      {
-        "value": "Items.FISH"
-      },
-      {
-        "value": "Blocks.SEAGRASS"
-      },
-      {
-        "value": "Blocks.SOUL_LANTERN"
+        "value": "Blocks.WOOL#0"
       },
       {
         "value": "Items.NETHER_STAR"
       },
       {
-        "value": "Blocks.SOUL_LANTERN"
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Blocks.WOOL#9"
       }
     ],
     "recipeReturnStack": {
