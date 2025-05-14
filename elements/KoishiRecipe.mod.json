@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Blocks.RED_FLOWER"
       },
       {
-        "value": "Items.FISH#1"
+        "value": "Blocks.WOOL#15"
       },
       {
-        "value": ""
+        "value": "Blocks.RED_FLOWER"
       },
       {
-        "value": "Items.GLOW_INK_SAC"
+        "value": "Blocks.WOOL#4"
       },
       {
         "value": "Items.ENDER_PEARL"
       },
       {
-        "value": "Items.GLOW_INK_SAC"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": ""
+        "value": "Blocks.RED_FLOWER"
       },
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": "Blocks.WOOL#13"
       },
       {
-        "value": ""
+        "value": "Blocks.RED_FLOWER"
       }
     ],
     "recipeReturnStack": {
