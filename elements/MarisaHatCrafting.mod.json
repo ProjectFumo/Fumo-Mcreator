@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "Items.STICK"
       },
       {
-        "value": "Items.GOLDEN_APPLE#1"
+        "value": "Blocks.WOOL#15"
       },
       {
-        "value": "Blocks.ICE"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Blocks.WOOL#0"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Blocks.ICE"
+        "value": "Items.BOOK"
       },
       {
         "value": "Items.STICK"
       },
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "Blocks.WOOL#4"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.WOOL#0"
+      },
+      {
+        "value": "Items.BOOK"
       }
     ],
     "recipeReturnStack": {

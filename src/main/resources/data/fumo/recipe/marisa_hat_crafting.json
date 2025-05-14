@@ -3,27 +3,27 @@
   "category": "misc",
   "pattern": [
     "abc",
-    "ded",
-    "cfa"
+    "adc",
+    "efc"
   ],
   "key": {
     "a": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:stick"
     },
     "b": {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "minecraft:black_wool"
     },
     "c": {
-      "item": "minecraft:ice"
+      "item": "minecraft:book"
     },
     "d": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:yellow_wool"
     },
     "e": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:wheat"
     },
     "f": {
-      "item": "minecraft:stick"
+      "item": "minecraft:white_wool"
     }
   },
   "result": {

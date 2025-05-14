@@ -37,7 +37,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.fumo.procedures.HitHatOffMarisaProcedure;
+import net.mcreator.fumo.procedures.FumoDespawnProcedure;
 import net.mcreator.fumo.init.FumoModItems;
 import net.mcreator.fumo.init.FumoModEntities;
 
@@ -160,7 +160,7 @@ public class MarisaHatEntity extends Animal {
 		Entity entity = this;
 		Level world = this.level();
 
-		HitHatOffMarisaProcedure.execute(world, entity, sourceentity);
+		FumoDespawnProcedure.execute(world, entity, sourceentity);
 		return retval;
 	}
 

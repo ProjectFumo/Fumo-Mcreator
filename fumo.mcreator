@@ -557,33 +557,6 @@
       "path": "~/Marisa"
     },
     {
-      "name": "HitHatOffMarisa",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hit_hat_off_marisa",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fumo/procedures/HitHatOffMarisaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Marisa"
-    },
-    {
       "name": "ChenItem",
       "type": "item",
       "compiles": true,
