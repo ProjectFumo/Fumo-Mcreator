@@ -12,16 +12,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": "Items.WHEAT"
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": "Blocks.WOOL#11"
+        "value": "Blocks.BROWN_MUSHROOM"
+      },
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
       },
       {
         "value": "Blocks.RED_MUSHROOM"
@@ -30,10 +33,7 @@
         "value": "Blocks.WOOL#11"
       },
       {
-        "value": "Blocks.WOOL#11"
-      },
-      {
-        "value": "Items.MILK_BUCKET"
+        "value": "Blocks.LOG2#1"
       },
       {
         "value": "Blocks.WOOL#11"

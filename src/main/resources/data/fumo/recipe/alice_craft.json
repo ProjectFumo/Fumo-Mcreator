@@ -3,24 +3,30 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "cdc",
-    "cec"
+    "cde",
+    "fgf"
   ],
   "key": {
     "a": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:white_wool"
     },
     "b": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:yellow_wool"
     },
     "c": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:brown_mushroom"
     },
     "d": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:totem_of_undying"
     },
     "e": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:red_mushroom"
+    },
+    "f": {
+      "item": "minecraft:blue_wool"
+    },
+    "g": {
+      "item": "minecraft:dark_oak_log"
     }
   },
   "result": {
