@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.RED_FLOWER"
+        "value": "Items.BOOK"
       },
       {
-        "value": "Blocks.LEAVES#1"
+        "value": "Blocks.WOOL#13"
       },
       {
-        "value": "Blocks.RED_FLOWER"
+        "value": "Items.BOOK"
       },
       {
-        "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": "Items.WATER_BUCKET"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "Blocks.CHERRY_LEAVES"
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": "Blocks.WATERLILY"
+        "value": "Blocks.WOOL#14"
       },
       {
-        "value": "Blocks.BREWING_STAND"
+        "value": "Blocks.WOOL#15"
       },
       {
-        "value": "Blocks.WATERLILY"
+        "value": "Blocks.WOOL#14"
       }
     ],
     "recipeReturnStack": {
