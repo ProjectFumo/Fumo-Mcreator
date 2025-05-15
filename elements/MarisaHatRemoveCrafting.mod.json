@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MarisaItem"
+        "value": "CUSTOM:MarisaHatItem"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MarisaHatItem"
+      "value": "CUSTOM:MarisaItem"
     },
-    "name": "marisa_hat_crafting",
+    "name": "marisa_hat_remove_crafting",
     "namespace": "mod"
   }
 }

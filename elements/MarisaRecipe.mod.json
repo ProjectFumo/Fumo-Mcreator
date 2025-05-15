@@ -9,40 +9,40 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
-        "value": ""
+        "value": "Blocks.WOOL#4"
       },
       {
-        "value": ""
+        "value": "Items.BOOK"
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:MarisaItem"
+        "value": "Blocks.WOOL#15"
       },
       {
-        "value": ""
+        "value": "Items.BOOK"
       },
       {
-        "value": ""
+        "value": "Blocks.WHEAT"
       },
       {
-        "value": ""
+        "value": "Blocks.WOOL#0"
       },
       {
-        "value": ""
+        "value": "Items.BOOK"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MarisaHatItem"
+      "value": "CUSTOM:MarisaItem"
     },
-    "name": "marisa_hat_crafting",
+    "name": "marisa_recipe",
     "namespace": "mod"
   }
 }

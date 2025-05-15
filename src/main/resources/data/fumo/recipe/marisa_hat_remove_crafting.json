@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "fumo:marisa_item"
+      "item": "fumo:marisa_hat_item"
     }
   ],
   "result": {
-    "id": "fumo:marisa_hat_item",
+    "id": "fumo:marisa_item",
     "count": 1
   }
 }

@@ -544,19 +544,6 @@
       "path": "~/Marisa Hat"
     },
     {
-      "name": "MarisaNoHatCraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "marisa_no_hat_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fumo/recipe/marisa_no_hat_craft.json"
-        ]
-      },
-      "path": "~/Marisa"
-    },
-    {
       "name": "ChenItem",
       "type": "item",
       "compiles": true,
@@ -2312,6 +2299,32 @@
         ]
       },
       "path": "~/Alice"
+    },
+    {
+      "name": "MarisaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipe/marisa_recipe.json"
+        ]
+      },
+      "path": "~/Marisa"
+    },
+    {
+      "name": "MarisaHatRemoveCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marisa_hat_remove_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fumo/recipe/marisa_hat_remove_crafting.json"
+        ]
+      },
+      "path": "~/Marisa Hat"
     }
   ],
   "variable_elements": [],

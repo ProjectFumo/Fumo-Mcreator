@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "adc",
+    "efc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:yellow_wool"
+    },
+    "c": {
+      "item": "minecraft:book"
+    },
+    "d": {
+      "item": "minecraft:black_wool"
+    },
+    "e": {
+      "item": "minecraft:wheat"
+    },
+    "f": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "id": "fumo:marisa_item",
+    "count": 1
+  }
+}
