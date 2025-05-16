@@ -1,15 +1,15 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="All Rights Reserved"
+license="CC-BY-NC-SA-4.0"
 
 [[mods]]
 modId="fumo"
-version="16.0.1"
+version="17.2.0"
 displayName="Fumo"
 displayURL="https://modrinth.com/mod/fumo"
 logoFile="logo.png"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="KoishiKomeji"
+credits="MCreator, reimuu@planetminecraft.com, mafurako@planetminecraft.com"
+authors="KosherKomeiji"
 description="Adds Fumos from Touhou."
 
 # Start of user code block mod configuration
